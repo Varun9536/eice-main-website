@@ -1,0 +1,55 @@
+.fontsize_1 {
+    font-size: 30px;
+}
+
+.fontsize_2 {
+    font-size: 25px;
+}
+
+.fontsize_3 {
+    font-size: 17px;
+
+}
+
+.fontsize_4 {
+    font-size: 21px;
+
+}
+
+.fontsize_5 {
+
+    font-size: 19px;
+}
+
+.fontsize_6 {
+    font-size: 35px;
+}
+
+.fontsize_7
+{
+    font-size: 40px;
+}
+
+@media screen and (max-width:600px) {
+    .fontPhone_1 {
+        font-size: 11px;
+    }
+
+    
+}
+
+
+
+
+
+.fontweight_1 {
+    font-weight: 600;
+}
+
+.fontweight_2 {
+    font-weight: bold;
+}
+
+.fontweight_3 {
+    font-weight: 500px;
+}

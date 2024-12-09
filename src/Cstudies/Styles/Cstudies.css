@@ -1,0 +1,51 @@
+/* this css used in every page of case study */
+
+.other_case_study_box {
+    width: 30%;
+}
+
+@media screen and (max-width:700px) {
+    .other_case_study_box {
+        width: 80%;
+
+    }
+}
+
+
+
+
+
+/* this css used in datamanagement .jsx file */
+.dataManagement_our_clients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+
+
+}
+
+.client_box {
+    width: 40%;
+
+    padding: 20px;
+}
+
+
+@media screen and (max-width:700px) {
+    .dataManagement_our_clients {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+
+
+    }
+
+    .client_box {
+        width: 90%;
+        padding: 20px;
+    }
+
+
+}

@@ -1,0 +1,36 @@
+.mainbox
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 40px;
+}
+
+
+.innerbox
+{
+    position: relative;
+    width: 320px;
+    border: 2px solid #e2e2e2;
+}
+
+.innerBoxPhone 
+{
+    border: 2px solid #e2e2e2;
+}
+
+
+.text
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.headimg
+{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
