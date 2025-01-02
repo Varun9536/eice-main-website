@@ -4,6 +4,7 @@ import linkedin from "../assets/linkedin.svg";
 import fb from "../assets/fb.svg";
 import logo from "../assets/logo.svg";
 import { useState } from "react";
+import { FaInstagram } from "react-icons/fa6";
 import { Routes, Route, Outlet, NavLink, Link } from "react-router-dom";
 import "../fontCss.css"
 
@@ -57,7 +58,7 @@ function Footer() {
           </p>
           <div className="flex space-x-4">
             <Link
-              to="https://twitter.com/EICE_Int"
+              to={"https://twitter.com/EiceTech24"}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -68,7 +69,7 @@ function Footer() {
               />
             </Link>
             <Link
-              to="https://www.linkedin.com/company/eice-technologies-private-ltd"
+              to={"https://www.linkedin.com/company/eice-technology/posts/?feedView=all&viewAsMember=true"}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -78,8 +79,10 @@ function Footer() {
                 className="h-6 w-6 hover:opacity-80 transition-opacity"
               />
             </Link>
+
+
             <Link
-              to="https://www.facebook.com/Eicetechnologies"
+              to={"https://www.facebook.com/Eicetechnology/"}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -89,6 +92,27 @@ function Footer() {
                 className="h-6 w-6 hover:opacity-80 transition-opacity"
               />
             </Link>
+
+            {/* <Link
+              to={"https://www.instagram.com/eicetechnology24/?next=%2F"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={insta}
+                alt="instagram"
+                className="h-6 w-6 hover:opacity-80 transition-opacity"
+              /> */}
+
+            {/* </Link> */}
+
+
+            <div>
+                                    <Link to={"https://www.instagram.com/eicetechnology24/?next=%2F"}>
+                                        <FaInstagram size={30} className="blueTextGlobalClass" />
+                                    </Link>
+
+                                </div>
           </div>
         </div>
 
@@ -172,7 +196,7 @@ function Footer() {
               Software Testing
             </Link>
             <Link
-            target="_blank"
+              target="_blank"
               to="https://rise.eicetechnology.com/"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
@@ -225,7 +249,7 @@ function Footer() {
               POS
             </Link> */}
 
-            
+
           </div>
         </div>
 
