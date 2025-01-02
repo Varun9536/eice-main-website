@@ -218,7 +218,7 @@ function Entpappdev() {
               </h1>
             </div>
             <div>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
                 EICE Technology specialize in delivering comprehensive mobile
                 and desktop app development services designed to transform your
                 ideas into innovative and user-centric applications. Our team of

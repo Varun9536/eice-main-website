@@ -210,17 +210,17 @@ function Digitrans() {
               </h1>
             </div>
             <div>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
                 In today's digital landscape, businesses must adapt to stay
                 relevant. EICE offers comprehensive digital transformation
                 services to propel your organization forward.
               </p>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify py-2">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg  py-2">
                 Our strategic approach ensures alignment with your objectives,
                 combining industry insights and cutting-edge technologies to
                 drive meaningful change.
               </p>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
                 We develop strategies that enhance operational efficiency,
                 capabilities, and customer experiences. Partner with EICE to
                 navigate the digital revolution and achieve long-term success.
@@ -284,7 +284,7 @@ function Digitrans() {
         </div>
       </div>
 
-      <div className="bg-zinc-50 pb-32 text-justify my-12">
+      <div className="bg-zinc-50 pb-32  my-12">
         <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen pt-20">
           <h1 className="text-bloo fontweight_1 fontsize_6 text-center">
             Why Choose EICE

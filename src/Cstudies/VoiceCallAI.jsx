@@ -25,8 +25,8 @@ import "./Styles/Cstudies.css"
 
 function VoiceCallAI() {
   return (
-    <div className="text-justify">
-      <div className="max-w-7xl text-justify mx-auto px-4 2xl:pt-12 pt-32">
+    <div className="">
+      <div className="max-w-7xl  mx-auto px-4 2xl:pt-12 pt-32">
         <div className="w-full">
           <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
             Voice Call Assistant
@@ -35,7 +35,7 @@ function VoiceCallAI() {
             Developement of an Advanced AI Voice Call Assistant: Revolutionizing
             Customer Interaction and Efficiency
           </h2>
-          <p className=" max-w-4xl mx-auto text-justify text-blackk/60 fontsize_3 fontweight_1 pt-4 px-4">
+          <p className=" max-w-4xl mx-auto  text-blackk/60 fontsize_3 fontweight_1 pt-4 px-4">
             For our client, we meticulously developed an AI-based voice call
             assistant technology by integrating large language models (LLMs),
             advanced speech-to-text, natural language processing (NLP), and

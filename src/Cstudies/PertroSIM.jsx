@@ -8,8 +8,8 @@ import "../fontCss.css";
 
 function PetroSIM() {
   return (
-    <div className="text-justify">
-      <div className="max-w-7xl text-justify mx-auto px-4 2xl:pt-12 pt-32">
+    <div className="">
+      <div className="max-w-7xl  mx-auto px-4 2xl:pt-12 pt-32">
         <div className="w-full">
           <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
             PetroSIM
@@ -17,7 +17,7 @@ function PetroSIM() {
           <h2 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
             Product Quality Assurance for Refinery Simulation Tool
           </h2>
-          <p className="fontweight_1 max-w-4xl mx-auto text-justify text-blackk/60 fontsize_3 pt-4 px-4">
+          <p className="fontweight_1 max-w-4xl mx-auto  text-blackk/60 fontsize_3 pt-4 px-4">
             PetroSIM: Comprehensive quality assurance and simulation tool for
             refinery operations, integrating advanced modeling capabilities with
             user-friendly interfaces for optimal process analysis and

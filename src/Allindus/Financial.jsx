@@ -264,7 +264,7 @@ function Legal() {
             <span className="text-bloo">Financial Services </span> Through
             Advanced Technology Solutions
           </h1>
-          <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+          <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
             EICE Technology, we specialize in transforming financial services
             through innovative technology solutions. Our mission is to deliver
             cutting-edge software solutions that enhance operational efficiency,

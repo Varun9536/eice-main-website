@@ -215,7 +215,7 @@ function Chatbot() {
               </h1>
             </div>
             <div>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
                 In today’s technology-driven market, leveraging cloud services
                 is crucial for enhancing agility, ensuring operational
                 efficiency, and driving business growth. Cloud computing plays a

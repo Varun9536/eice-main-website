@@ -208,7 +208,7 @@ function TechnologyConsulting() {
               </h1>
             </div>
             <div>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
                 In today's rapidly evolving digital landscape, leveraging the
                 right technologies is crucial for business success. Technology
                 consulting plays a vital role in helping organizations navigate

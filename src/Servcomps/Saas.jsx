@@ -220,7 +220,7 @@ function Saas() {
               </h1>
             </div>
             <div>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
                 In the ever-evolving digital landscape, Software as a Service
                 (SaaS) has emerged as a dominant model for delivering
                 applications over the internet. By offering scalable,

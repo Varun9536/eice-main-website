@@ -250,7 +250,7 @@ function Healthcare() {
             Transforming <span className="text-bloo">Healthcare</span> with
             Innovative Technology
           </h1>
-          <p className="font-medium text-blackk/60 sm:text-xl max-w-7xl text-lg text-justify">
+          <p className="font-medium text-blackk/60 sm:text-xl max-w-7xl text-lg ">
             At EICE Technology, we empower businesses to excel in the digital
             age through cutting-edge technologies and innovative strategies. We
             recognize the essential role of technology in modern healthcare and

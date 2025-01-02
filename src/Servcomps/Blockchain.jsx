@@ -218,7 +218,7 @@ function Blockchain() {
               </h1>
             </div>
             <div>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
                 Blockchain technology has evolved beyond its initial application
                 in cryptocurrency to become a transformative force across
                 various industries. Its decentralized, transparent, and secure

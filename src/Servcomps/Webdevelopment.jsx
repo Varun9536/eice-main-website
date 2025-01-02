@@ -222,7 +222,7 @@ function Webdevelopment() {
               </h1>
             </div>
             <div>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
                 In an era where digital presence is crucial for business
                 success, web applications have become a key component of a
                 company's strategy. A well-designed web app can drive user

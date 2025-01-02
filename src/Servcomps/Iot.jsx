@@ -218,14 +218,14 @@ function Iot() {
               </h1>
             </div>
             <div>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
                 In today's technologically advanced world, businesses across
                 various sectors are integrating their equipment and sensors with
                 the Internet. This shift towards the Internet of Things (IoT)
                 aims to enhance customer experiences, optimize energy usage,
                 boost productivity, and create new revenue streams.
               </p>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify py-4">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg  py-4">
                 The connectivity provided by IoT is revolutionizing industries
                 by enabling smarter operations and data-driven decision-making.
               </p>

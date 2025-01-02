@@ -25,8 +25,8 @@ import "../fontCss.css";
 
 function LogisticsAi() {
     return (
-        <div className="text-justify">
-            <div className="max-w-7xl text-justify mx-auto px-4 2xl:pt-12 pt-32">
+        <div className="">
+            <div className="max-w-7xl  mx-auto px-4 2xl:pt-12 pt-32">
                 <div className="w-full">
                     <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
                         Development of AI-Based Logistics Optimization System
@@ -34,7 +34,7 @@ function LogisticsAi() {
                     <h2 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-5xl py-1">
                         Transforming Logistics Operations with AI: Enhancing Efficiency and Accuracy
                     </h2>
-                    <p className="fontsize_3 max-w-4xl mx-auto text-justify text-blackk/60 fontweight_1 pt-4 px-4">
+                    <p className="fontsize_3 max-w-4xl mx-auto  text-blackk/60 fontweight_1 pt-4 px-4">
                         For our client in the logistics sector, we developed an advanced AI-based logistics optimization system by integrating machine learning algorithms, predictive analytics, and real-time data processing. This solution ensured optimized routing, efficient resource allocation, and enhanced operational efficiency.
                     </p>
                     <div className="w-full h-full max-w-7xl mx-auto items-center justify-center pt-12 pb-4 flex flex-row flex-wrap gap-16">

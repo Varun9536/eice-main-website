@@ -481,7 +481,7 @@ function OurTeam() {
           <h2 className=" fontsize_2 text-blackk   text-center  mx-auto   max-w-5xl py-1">
             The driving force behind our innovation and success
           </h2>
-          <p className=" fontsize_4   fontweight_1 text-justify text-blackk/60  max-w-5xl mx-auto  py-4   leading-snug">
+          <p className=" fontsize_4   fontweight_1  text-blackk/60  max-w-5xl mx-auto  py-4   leading-snug">
             EICE's leadership team is a dynamic blend of creativity, vision, and
             strategic thinking. They inspire a culture of innovation and
             passion, driving our entire organization towards shared success.
@@ -500,7 +500,7 @@ function OurTeam() {
           <h2  className=" fontsize_2 text-blackk  text-center  l mx-auto  py-1">
             Key Team Leads
           </h2>
-          <p className=" fontsize_4  px-4 fontweight_1  text-justify text-blackk/60  max-w-5xl mx-auto  py-4  ">
+          <p className=" fontsize_4  px-4 fontweight_1   text-blackk/60  max-w-5xl mx-auto  py-4  ">
             At EICE, our team is the backbone of our success. Our exceptional
             team leaders are the ones who help deliver projects to the best of
             our capability.
@@ -562,7 +562,7 @@ function OurTeam() {
               <div className="grid lg:grid-cols-3 grid-cols-1 gap-8 border-2 p-4 rounded-md">
                 <div className="col-span-2 w-full">
                   <h1 className=" fontweight_2  text-bloo  text-xl  py-1">Innovation at Every Level</h1>
-                  <p className="  fontsize_3  fontweight_1 lg:text-justify text-left text-blackk/60  max-w-5xl mx-auto  py-1   ">
+                  <p className="  fontsize_3  fontweight_1 lg: text-left text-blackk/60  max-w-5xl mx-auto  py-1   ">
                     Our employees are innovators at heart. They continually seek out new ideas, technologies, and methodologies to drive our projects forward.
                     This culture of innovation ensures that we stay ahead of our competition and deliver cutting edge solutions to our clients.
                   </p>
@@ -574,7 +574,7 @@ function OurTeam() {
               <div className="grid lg:grid-cols-3 grid-cols-1 gap-8 border-2 p-4 rounded-md">
                 <div className="col-span-2 w-full">
                   <h1 className="  fontweight_2  text-bloo  text-xl  py-1">Innovation at Every Level</h1>
-                  <p className="  fontsize_3 fontweight_1 lg:text-justify text-left text-blackk/60  max-w-5xl mx-auto  py-1  ">
+                  <p className="  fontsize_3 fontweight_1 lg: text-left text-blackk/60  max-w-5xl mx-auto  py-1  ">
                     Our employees are innovators at heart. They continually seek out new ideas, technologies, and methodologies to drive our projects forward.
                     This culture of innovation ensures that we stay ahead of our competition and deliver cutting edge solutions to our clients.
                   </p>
@@ -586,7 +586,7 @@ function OurTeam() {
               <div className="grid lg:grid-cols-3 grid-cols-1 gap-8 border-2 p-4 rounded-md">
                 <div className="col-span-2 w-full">
                   <h1 className=" fontweight_2  text-bloo text-xl  py-1">Innovation at Every Level</h1>
-                  <p className=" fontsize_3  fontweight_1 lg:text-justify text-left text-blackk/60  max-w-5xl mx-auto  py-1 ">
+                  <p className=" fontsize_3  fontweight_1 lg: text-left text-blackk/60  max-w-5xl mx-auto  py-1 ">
                     Our employees are innovators at heart. They continually seek out new ideas, technologies, and methodologies to drive our projects forward.
                     This culture of innovation ensures that we stay ahead of our competition and deliver cutting edge solutions to our clients.
                   </p>
@@ -605,7 +605,7 @@ function OurTeam() {
           <h2 className=" fontsize_2  text-white   mx-auto   py-1">
             Come and Work with Us
           </h2>
-          <p className=" fontsize_3 lg:text-justify text-left text-white mx-auto  py-1  ">Join our dynamic team and contribute to innovative solutions that drive success. At EICE, we value talent, creativity, and a passion for excellence</p>
+          <p className=" fontsize_3 lg: text-left text-white mx-auto  py-1  ">Join our dynamic team and contribute to innovative solutions that drive success. At EICE, we value talent, creativity, and a passion for excellence</p>
           <div className="pt-4">
             <Link to="/contact" className="">
               <button className="w-full sm:w-auto py-4 px-10 fontsize_3  rounded transition duration-200 border-2 border-bloo bg-bloo text-white hover:bg-bloo/90 ">

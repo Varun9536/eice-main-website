@@ -208,7 +208,7 @@ function DevOps() {
             </div>
 
             <div>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
                 In today's fast-paced digital landscape, DevOps practices are
                 essential for businesses to deliver high-quality software
                 rapidly and efficiently. DevOps services play a crucial role in

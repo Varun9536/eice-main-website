@@ -18,7 +18,7 @@ function Company() {
           <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
             Who We Are
           </h1>
-          <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+          <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
             EICE is a global software services organization dedicated to
             delivering high-quality solutions to Fortune 1000 companies. We
             leverage specialized domain knowledge, cutting-edge technologies,
@@ -32,7 +32,7 @@ function Company() {
           <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
             Our Strength
           </h1>
-          <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+          <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
             Our strength lies in our deep domain knowledge of the oil and gas
             industry and our ability to provide innovative solutions to complex
             technology challenges. We collaborate with leading global operators

@@ -21,7 +21,7 @@ function Scopes() {
             Choosing an appropriate engagement method for your project
           </h2>
         </div>
-        <div className="font-medium text-blackk/60 sm:text-xl text-lg lg:px-32 sm:pt-4 pt-2 text-justify">
+        <div className="font-medium text-blackk/60 sm:text-xl text-lg lg:px-32 sm:pt-4 pt-2 ">
           <p>
             The working model between the client and company plays a massive
             part in catering to each unique project. After an assessment of

@@ -184,19 +184,19 @@ function Aiml() {
               </h1>
             </div>
             <div>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
                 In today's rapidly evolving AI landscape, businesses must adapt
                 to stay relevant. At EICE, we offer comprehensive AI/ML and
                 generative AI services to propel your organization into the
                 future.
               </p>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify py-4">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg  py-4">
                 Our strategic approach ensures alignment with your business
                 objectives. Our experts combine industry insights with
                 cutting-edge AI technologies to implement solutions that drive
                 meaningful change.
               </p>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
                 We develop AI strategies that not only meet your goals but also
                 enhance operational efficiency, capabilities, and customer
                 experiences. Partner with EICE to navigate the AI revolution and
@@ -262,7 +262,7 @@ function Aiml() {
         </div>
       </div>
 
-      <div className="bg-zinc-50 pb-32 text-justify my-12">
+      <div className="bg-zinc-50 pb-32  my-12">
         <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen pt-20">
           <h1 className="text-bloo fontweight_1 fontsize_6  pb-4 text-center">
             Why Choose EICE

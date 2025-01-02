@@ -266,7 +266,7 @@ function Oilandgas() {
             Pioneering <span className="text-bloo">the Future</span> of Oil and
             Gas with State-of-the-Art Solutions
           </h1>
-          <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+          <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
             EICE Technology offers specialized software solutions for the oil
             and gas industry, addressing its unique needs. Our solutions include
             reservoir management for optimal resource recovery, drilling

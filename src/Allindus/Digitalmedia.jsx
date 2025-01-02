@@ -268,7 +268,7 @@ function Digitalmedia() {
             Transforming <span className="text-bloo">Media Landscape</span> with
             Innovative Technology Solutions
           </h1>
-          <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+          <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
             At EICE Technology, we specialize in transforming digital media with
             innovative technology solutions. Our mission is to deliver
             cutting-edge software solutions that enhance operational efficiency,

@@ -216,7 +216,7 @@ function Chatbot() {
               </h1>
             </div>
             <div>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
                 In today’s fast-paced digital world, businesses are increasingly
                 turning to chatbots to enhance customer interactions, streamline
                 operations, and drive growth. Chatbots offer a scalable solution

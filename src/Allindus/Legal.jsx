@@ -278,7 +278,7 @@ function Legal() {
             <span className="text-bloo">Legal Software Solutions </span> for a
             Modern Legal Practice
           </h1>
-          <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+          <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
             At EICE Technology, we recognize that the legal industry is evolving
             rapidly, and technology is at the forefront of this transformation.
             Our specialized legal software solutions are designed to streamline

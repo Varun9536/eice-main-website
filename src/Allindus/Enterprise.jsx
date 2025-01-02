@@ -262,7 +262,7 @@ function Legal() {
             Transforming <span className="text-bloo">Enterprise</span> with
             Innovative Technology
           </h1>
-          <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+          <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
             At EICE Technology, we excel in transforming enterprise operations
             through state-of-the-art technology solutions. Our mission is to
             provide innovative software that significantly boosts operational

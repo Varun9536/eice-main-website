@@ -211,7 +211,7 @@ function Chatbot() {
               </h1>
             </div>
             <div>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
                 In today’s technology-driven market, delivering high-quality
                 software is crucial for maintaining customer satisfaction,
                 competitive edge, and operational efficiency. Software testing

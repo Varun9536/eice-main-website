@@ -263,7 +263,7 @@ function Logistics() {
             Transforming <span className="text-bloo">Logistics Industry</span>{" "}
             with Innovative Technology
           </h1>
-          <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+          <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
             At EICE Technology, we excel in transforming logistics operations
             through state-of-the-art technology solutions. Our mission is to
             provide innovative software that significantly boosts operational

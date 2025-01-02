@@ -548,10 +548,10 @@ const Aboutus = () => {
       <div className="col-span-2">
         <div>
           <div className=" flex flex-col items-center justify-center">
-            <div className="flex flex-col text-justify gap-6 text-wrap">
+            <div className="flex flex-col  gap-6 text-wrap">
               <div className="w-full">
                 <h1>Who We Are</h1>
-                <p className="text-wrap text-justify font-semibold text-blackk/60 text-sm ">
+                <p className="text-wrap  font-semibold text-blackk/60 text-sm ">
                   We are a global IT services and consulting firm with over 200
                   professional technologists, specializing in innovative
                   strategies that bridge technology and business solutions.
@@ -559,7 +559,7 @@ const Aboutus = () => {
               </div>
               <div className="w-full">
                 <h1>What We Do</h1>
-                <p className="text-wrap text-justify font-semibold text-blackk/60 text-sm">
+                <p className="text-wrap  font-semibold text-blackk/60 text-sm">
                   We partner with global leaders and startups to turn ideas into
                   reality through custom software and integrated models,
                   delivering cutting-edge IT solutions.
@@ -567,7 +567,7 @@ const Aboutus = () => {
               </div>
               <div className="w-full">
                 Mission and Vision
-                <p className="text-wrap text-justify font-semibold text-blackk/60 text-sm">
+                <p className="text-wrap  font-semibold text-blackk/60 text-sm">
                   {" "}
                   Our mission is to ensure client satisfaction through
                   innovative technology solutions that drive growth. Our vision

@@ -262,7 +262,7 @@ function Logistics() {
             Empowering <span className="text-bloo">Education Through</span>{" "}
             Innovative Technology Solutions
           </h1>
-          <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+          <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
             At EICE Technology, we specialize in helping educational
             institutions leverage advanced technology to succeed in the digital
             age. Our mission is to provide innovative software solutions that
