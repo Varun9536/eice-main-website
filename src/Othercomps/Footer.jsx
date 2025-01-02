@@ -9,6 +9,7 @@ import { useState } from "react";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareInstagram } from "react-icons/fa6";
 
 // import { FaInstagram } from "react-icons/fa6";
 
@@ -133,7 +134,8 @@ function Footer() {
 
                                 <div>
                                     <Link to={"https://www.instagram.com/eicetechnology24/?next=%2F"}>
-                                        <FaInstagram size={30} className="blueTextGlobalClass" />
+                                        {/* <FaInstagram size={30} className="blueTextGlobalClass" /> */}
+                                        <FaSquareInstagram size={30} className="blueTextGlobalClass" />
                                     </Link>
 
                                 </div>
