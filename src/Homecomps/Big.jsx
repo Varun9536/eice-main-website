@@ -158,7 +158,7 @@ function Big() {
       <div  className="  absolute inset-0 bg-bannerbg bg-cover bg-center bg-blend-overlay"></div>
       <div className="relative z-10 ">
         <div className=" mx-auto px-4 sm:px-2 xl:px-8">
-          <TransitionGroup className="min-h-[500px] sm:min-h-[450px]">
+          <TransitionGroup className="min-h-[500px] sm:min-h-[450px]  max-w-[1536px] mx-auto ">
             <CSSTransition
               key={currentIndex}
               timeout={500}
