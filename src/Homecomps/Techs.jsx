@@ -198,7 +198,7 @@ function Techs() {
     <div className="">
       <div className="bg-bgplate bg-cover "></div>
       <div className="bg-zinc-50">
-        <div className="  mx-auto px-4 font-manrope">
+        <div className="  mx-auto  font-manrope">
           <header className="text-center mb-10">
             <h1 className="text-bloo fontsize_2 fontweight_1  py-2">
               Technologies we work with
