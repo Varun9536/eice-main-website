@@ -33,7 +33,7 @@ function Scopes() {
       <div className="flex flex-col gap-24 items-center justify-center sm:pt-20 pt-16">
         <div className="lg:grid lg:grid-cols-2 flex flex-col items-center justify-center w-full h-full">
           <div className="relative w-11/12 h-[30rem] items-center justify-center flex justify-self-start">
-            <div className="flex flex-col lg:p-16 ps:p-1  absolute inset-0 justify-center">
+            <div className="flex flex-col lg:p-16 ps:p-5  absolute inset-0 justify-center">
               <div className="z-20 pb-8 justify-start flex w-full px-4">
                 <img src={ConstrainedBudget} alt="" className="scale-[1.2]" />
               </div>
@@ -80,7 +80,7 @@ function Scopes() {
         </div>
         <div className="lg:hidden flex flex-col items-center justify-center w-full h-full">
           <div className="relative w-11/12 h-[30rem] items-center justify-center flex justify-self-end">
-            <div className="flex flex-col  lg:p-16 ps:p-1  justify-center absolute inset-0 ">
+            <div className="flex flex-col  lg:p-16 ps:p-5  justify-center absolute inset-0 ">
               <div className="z-20 pb-8  flex w-full">
                 <img src={EvolvingScope} alt="" className="scale-[1.2]" />
               </div>
@@ -176,7 +176,7 @@ function Scopes() {
         </div>
         <div className="lg:grid lg:grid-cols-2 flex flex-col items-center justify-center w-full h-full">
           <div className="relative w-11/12 h-[30rem] items-center justify-center flex justify-self-start">
-            <div className="flex flex-col lg:p-16 ps:p-1  justify-center absolute inset-0">
+            <div className="flex flex-col lg:p-16 ps:p-5  justify-center absolute inset-0">
               <div className="z-20 pb-8 px-4  flex w-full">
                 <img src={UnclearRequirements} alt="" className="scale-[1.2]" />
               </div>
