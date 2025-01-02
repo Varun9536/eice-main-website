@@ -53,7 +53,6 @@ export default {
       },
       screens: {
         'ps': '300px',   // Custom breakpoint at 300px
-        'sm': '800px',   // Custom breakpoint at 800px
       },
     },
   },
