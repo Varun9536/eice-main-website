@@ -51,6 +51,10 @@ export default {
         'muted': '#7f7f7f',
         'blackk' : '#333333',
       },
+      screens: {
+        'ps': '300px',   // Custom breakpoint at 300px
+        'sm': '800px',   // Custom breakpoint at 800px
+      },
     },
   },
   plugins: [
