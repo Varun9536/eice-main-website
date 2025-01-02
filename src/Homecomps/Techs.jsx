@@ -46,7 +46,7 @@ import { RiNextjsFill } from "react-icons/ri";
 
 const categories = [
   { name: "Mobile", id: "mobile" },
-  { name: "Front End", id: "frontend" },
+  { name: "Frontend", id: "frontend" },
   { name: "Database", id: "database" },
   { name: "Backend", id: "backend" },
   { name: "Infra and DevOps", id: "devops" },

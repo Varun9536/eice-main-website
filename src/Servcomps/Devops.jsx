@@ -196,7 +196,7 @@ function DevOps() {
         </div>
       </div>
 
-      <div className="py-16 md:py-20 lg:py-16 ">
+      <div className="py-8  ">
         <div className="relative font-manrope mx-auto px-4 lg:px-4 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
 
@@ -224,8 +224,12 @@ function DevOps() {
             </div>
           </div>
         </div>
+
       </div>
-      <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen py-4 lg:pt-24 pt-12 pb-20  ">
+
+
+
+      <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen py-4 lg:pt-4  pb-12  ">
         <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
           Our DevOps Services
         </h1>

@@ -192,7 +192,7 @@ function Chatbot() {
               </h1>
               <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-left">
                 {
-                  "Comprehensive Cloud Services: Enhancing Agility and Efficiency"
+                  "Comprehensive Cloud Services  Enhancing Agility and Efficiency"
                 }
               </h2>
             </div>
