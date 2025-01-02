@@ -184,7 +184,7 @@ function Android() {
               </h1>
               <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-left">
                 {
-                  "Comprehensive App Development Services: Unlocking Your Digital Potential"
+                  "Comprehensive App Development Services Unlocking Your Digital Potential"
                 }
               </h2>
             </div>
