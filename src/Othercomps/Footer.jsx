@@ -3,8 +3,16 @@ import x from "../assets/x.svg";
 import linkedin from "../assets/linkedin.svg";
 import fb from "../assets/fb.svg";
 import logo from "../assets/logo.svg";
+import insta from "../assets/insta.svg";
+
 import { useState } from "react";
 import { FaInstagram } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+
+// import { FaInstagram } from "react-icons/fa6";
+
+import { FaFacebookSquare } from "react-icons/fa";
 import { Routes, Route, Outlet, NavLink, Link } from "react-router-dom";
 import "../fontCss.css"
 
@@ -57,6 +65,7 @@ function Footer() {
             India.
           </p>
           <div className="flex space-x-4">
+{/*             
             <Link
               to={"https://twitter.com/EiceTech24"}
               target="_blank"
@@ -93,26 +102,52 @@ function Footer() {
               />
             </Link>
 
-            {/* <Link
+            <Link
               to={"https://www.instagram.com/eicetechnology24/?next=%2F"}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
+
+              <img style={{ color: "blue" }}
                 src={insta}
-                alt="instagram"
+                alt="Instagram"
                 className="h-6 w-6 hover:opacity-80 transition-opacity"
-              /> */}
+              />
 
-            {/* </Link> */}
+            </Link> */}
 
 
-            <div>
+<div>
+                                    <Link to={"https://www.linkedin.com/company/eice-technology/posts/?feedView=all&viewAsMember=true"}>
+                                        <FaLinkedin size={30} className="blueTextGlobalClass" />
+                                    </Link>
+
+                                </div>
+
+                                <div>
+                                    <Link to={"https://twitter.com/EiceTech24"}>
+                                        <FaSquareXTwitter size={30} className="blueTextGlobalClass" />
+                                    </Link>
+
+                                </div>
+
+                                <div>
                                     <Link to={"https://www.instagram.com/eicetechnology24/?next=%2F"}>
                                         <FaInstagram size={30} className="blueTextGlobalClass" />
                                     </Link>
 
                                 </div>
+
+                                <div>
+                                    <Link to={"https://www.facebook.com/Eicetechnology/"}>
+                                        <FaFacebookSquare size={30} className="blueTextGlobalClass" />
+                                    </Link>
+
+                                </div>
+
+
+
+
           </div>
         </div>
 

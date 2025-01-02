@@ -53,3 +53,8 @@
 .fontweight_3 {
     font-weight: 500px;
 }
+
+
+.blueTextGlobalClass {
+    color: rgba(1, 176, 241, 1);
+  }
