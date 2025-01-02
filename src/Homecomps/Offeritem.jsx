@@ -8,7 +8,7 @@ function Offeritem({ svg, title, link, fliptext }) {
         <div
           className={`p-5 lg:h-[300px] h-[350px] grid grid-cols-5 gap-8 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-transparent hover:border-gray-200`}
         >
-          <div className="w-16 h-16 sm:w-20 sm:h-20 flex-shrink-0">
+          <div className="w-16 h-16 ml-4 sm:w-20 sm:h-20 flex-shrink-0">
             <div className="rounded-full bg-bloo/5 w-full h-full flex items-center justify-center">
               <img
                 src={svg}
