@@ -186,7 +186,7 @@ function Digitrans() {
               </h1>
               <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-left">
                 {
-                  "Revolutionize Your Business: Harness the Power of Digital Transformation for Sustainable Growth"
+                  "Revolutionize Your Business  Harness the Power of Digital Transformation for Sustainable Growth"
                 }
               </h2>
             </div>
@@ -229,6 +229,7 @@ function Digitrans() {
           </div>
         </div>
       </div>
+
       <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen py-4">
         <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
           Core Competencies
@@ -284,8 +285,8 @@ function Digitrans() {
         </div>
       </div>
 
-      <div className="bg-zinc-50 pb-32  my-12">
-        <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen pt-20">
+      <div className="bg-zinc-50 pb-32 ">
+        <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen pt-16">
           <h1 className="text-bloo fontweight_1 fontsize_6 text-center">
             Why Choose EICE
           </h1>
@@ -295,7 +296,7 @@ function Digitrans() {
           </h2>
         </div>
         <div className="">
-          <div className="relative px-4 font-manrope mx-auto sm:max-w-7xl w-screen pt-20">
+          <div className="relative px-4 font-manrope mx-auto sm:max-w-7xl w-screen pt-16">
             <div className="grid grid-cols-1 gap-10">
               {[
                 {

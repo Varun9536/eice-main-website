@@ -160,7 +160,7 @@ function Aiml() {
               </h1>
               <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-left">
                 {
-                  "Revolutionize Your Business: Harness the Power of AI for Sustainable Growth"
+                  "Revolutionize Your Business  Harness the Power of AI for Sustainable Growth"
                 }
               </h2>
             </div>
@@ -207,7 +207,7 @@ function Aiml() {
         </div>
       </div>
       <Process />
-      <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen py-4 pt-24 pb-8">
+      <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen py-4 pt-18 pb-8">
         <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
           Core Competencies
         </h1>
@@ -262,8 +262,8 @@ function Aiml() {
         </div>
       </div>
 
-      <div className="bg-zinc-50 pb-32  my-12">
-        <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen pt-20">
+      <div className="bg-zinc-50 pb-12  my-12">
+        <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen pt-12">
           <h1 className="text-bloo fontweight_1 fontsize_6  pb-4 text-center">
             Why Choose EICE
           </h1>

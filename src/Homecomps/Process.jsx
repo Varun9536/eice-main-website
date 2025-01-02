@@ -18,7 +18,7 @@ function Process() {
   return (
     <div>
       {/*Pattern*/}
-      <div className="bg-bgplate bg-cover py-20"></div>
+      <div className="bg-bgplate bg-cover pt-20 "></div>
       {/* Proven processes, unparalelled expertise, top notch tools */}
       <div className="bg-zinc-50">
         <div className="sm:max-w-7xl mx-auto w-screen">
@@ -26,7 +26,7 @@ function Process() {
             <p className="text-bloo fontweight_1 text-xl sm:text-2xl lg:text-3xl mb-4 py-1">
               Agile Software Development
             </p>
-            <h2 className="text-blackk font-extrabold text-center text-2xl sm:text-3xl md:text-4xl lg:text-[36px] max-w-4xl py-1">
+            <h2 className="text-blackk fontweight_1 text-center text-2xl  md:text-3xl lg:text-[32px] max-w-4xl ">
               Proven processes, unparalelled expertise, and top notch tools
             </h2>
           </div>
@@ -36,10 +36,10 @@ function Process() {
               <div className="justify-self-center bg-bannerai bg-cover w-[41vh] h-[38.3vh] scale-[1.1]"></div>
               <div>
                 <div className="justify-center flex flex-col w-full h-full">
-                  <h2 className="text-4xl fontweight_1 text-blackk">
+                  <h2 className="text-3xl fontweight_1 text-blackk">
                     Generative AI
                   </h2>
-                  <h2 className="text-2xl fontweight_1 text-blackk/70">
+                  <h2 className="fontsize_4 mt-1 fontweight_1 text-blackk/70">
                     In the fast-paced world of generative AI, staying ahead is
                     crucial for business success. At EICE, we specialize in
                     advanced AI/ML and generative AI solutions designed to
@@ -103,7 +103,7 @@ function Process() {
         </div>
       </div>
       {/*Pattern*/}
-      <div className="bg-bgplate bg-cover py-20 rotate-180"></div>
+      <div className="bg-bgplate bg-cover pt-20 rotate-180"></div>
     </div>
   );
 }

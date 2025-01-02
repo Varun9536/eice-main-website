@@ -188,7 +188,7 @@ function Uiux() {
               </h1>
               <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-left">
                 {
-                  "Comprehensive UI/UX Consulting Services: Enhancing User Experience and Engagement"
+                  "Comprehensive UI/UX Consulting Services Enhancing User Experience and Engagement"
                 }
               </h2>
             </div>
