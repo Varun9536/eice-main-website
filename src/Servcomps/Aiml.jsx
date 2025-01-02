@@ -97,7 +97,7 @@ function Cstdmain() {
       <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] max-w-7xl py-1 pb-8">
         Explore how we digitally transformed other businesses
       </h1>
-      <main className="container mx-auto max-w-7xl">
+      <main className=" mx-auto max-w-7xl">
         <nav className="mb-8 sm:mb-12">
           <ul className="flex flex-wrap justify-center gap-2 sm:gap-4">
             {industries.map((industry) => (

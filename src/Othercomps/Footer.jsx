@@ -36,7 +36,7 @@ function Footer() {
 
   return (
     <footer className="bg-white text-manrope lg:py-12 py-20 px-2 lg:max-w-7xl w-screen mx-auto font-manrope">
-      <div className="container mx-auto flex flex-row flex-wrap gap-8 w-full">
+      <div className=" mx-auto flex flex-row flex-wrap gap-8 w-full">
         {/* Company Info */}
         <div className="px-3 col-span-1 md:col-span-2 lg:col-span-1">
           <Link to="/" className="inline-block mb-4">

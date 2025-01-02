@@ -10,7 +10,7 @@ function Big() {
   const slides = [
     {
       content: (
-        <div className="container mx-auto px-4 sm:px-12 lg:px-0 xl:px-12 2xl:px-16">
+        <div className=" mx-auto px-4 sm:px-12 lg:px-0 xl:px-12 2xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="flex flex-col space-y-4 ">
               <h1 className="text-blackk fontsize_6 font-semibold lg:leading-[3.7rem]">
@@ -51,7 +51,7 @@ function Big() {
     },
     {
       content: (
-        <div className="container mx-auto px-4 sm:px-12 lg:px-0 xl:px-12 2xl:px-16">
+        <div className=" mx-auto px-4 sm:px-12 lg:px-0 xl:px-12 2xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="flex flex-col space-y-4">
               <h1 className="text-blackk fontsize_6 font-semibold lg:leading-[3.7rem]">
@@ -92,7 +92,7 @@ function Big() {
     },
     {
       content: (
-        <div className="container mx-auto px-4 sm:px-12 lg:px-0 xl:px-12 2xl:px-16">
+        <div className=" mx-auto px-4 sm:px-12 lg:px-0 xl:px-12 2xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="flex flex-col space-y-4">
               <h1 className="text-blackk fontsize_6 font-semibold lg:leading-[3.7rem]">
@@ -157,7 +157,7 @@ function Big() {
     <div className="relative overflow-hidden font-manrope mt-24 text-blackk pb-4">
       <div  className="  absolute inset-0 bg-bannerbg bg-cover bg-center bg-blend-overlay"></div>
       <div className="relative z-10 ">
-        <div className="container mx-auto px-4 sm:px-2 xl:px-8">
+        <div className=" mx-auto px-4 sm:px-2 xl:px-8">
           <TransitionGroup className="min-h-[500px] sm:min-h-[450px]">
             <CSSTransition
               key={currentIndex}

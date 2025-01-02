@@ -508,7 +508,7 @@ function OurTeam() {
         </div>
 
 
-        <div className={`${styles.team_container} py-4`}>
+        <div className={`${styles.team_} py-4`}>
 
           {/* <Slider className="w-full h-full" {...settings}> */}
 

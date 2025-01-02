@@ -233,7 +233,7 @@ function Cstdmain() {
           innovative software solutions and unparalleled expertise.
         </p>
       </header>
-      <main className="container mx-auto max-w-7xl pt-8">
+      <main className=" mx-auto max-w-7xl pt-8">
         <nav className="mb-8 sm:mb-12">
           <ul className="flex flex-wrap justify-center gap-2 sm:gap-4">
             {industries.map((industry) => (

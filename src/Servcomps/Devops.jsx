@@ -121,7 +121,7 @@ function Cstdmain() {
       <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] max-w-7xl py-1 pb-8">
         Explore how we digitally transformed other businesses
       </h1>
-      <main className="container mx-auto max-w-7xl">
+      <main className=" mx-auto max-w-7xl">
         <nav className="mb-8 sm:mb-12">
           <ul className="flex flex-wrap justify-center gap-2 sm:gap-4">
             {industries.map((industry) => (
@@ -285,10 +285,10 @@ function DevOps() {
             </div>
             <div className="pt-2 h-full text-left">
               <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
-                CONTAINERIZATION AND ORCHESTRATION
+                IZATION AND ORCHESTRATION
               </h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
-                We leverage containerization technologies like Docker and
+                We leverage ization technologies like Docker and
                 orchestration platforms like Kubernetes to enhance application
                 portability, scalability, and resource efficiency.
               </p>
