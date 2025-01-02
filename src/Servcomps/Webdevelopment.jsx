@@ -198,7 +198,7 @@ function Webdevelopment() {
               </h1>
               <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-left">
                 {
-                  "Cutting-Edge Web App Development Services: Transforming Ideas into High-Impact Digital Solutions"
+                  "Cutting-Edge Web App Development Services Transforming Ideas into High-Impact Digital Solutions"
                 }
               </h2>
             </div>
