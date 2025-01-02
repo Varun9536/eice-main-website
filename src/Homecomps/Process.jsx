@@ -39,7 +39,8 @@ function Process() {
                   <h2 className="text-3xl fontweight_1 text-blackk">
                     Generative AI
                   </h2>
-                  <h2 className="fontsize_4 mt-1 fontweight_1 text-blackk/70">
+                  
+                  <h2 className="sm:text-xl text-lg mt-1 font-medium fontweight_1 text-blackk/70">
                     In the fast-paced world of generative AI, staying ahead is
                     crucial for business success. At EICE, we specialize in
                     advanced AI/ML and generative AI solutions designed to
