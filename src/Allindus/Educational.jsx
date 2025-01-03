@@ -338,7 +338,7 @@ function Logistics() {
             <div className=" rounded-full flex items-start justify-start w-full px-4">
               <FaPencilRuler size={48} className="text-bloo" />
             </div>
-            <div className="pt-6 h-full text-left">
+            <div className="pt-1 h-full text-left">
               <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 Personalized Learning Experiences{" "}
               </h1>
@@ -355,7 +355,7 @@ function Logistics() {
             <div className=" rounded-full  flex items-start justify-start w-full px-4">
               <PiStudent size={48} className="text-bloo" />
             </div>
-            <div className="pt-6 h-full text-left">
+            <div className="pt-2 h-full text-left">
               <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 Enhanced Classroom Collaboration{" "}
               </h1>
@@ -371,7 +371,7 @@ function Logistics() {
             <div className=" rounded-full  flex items-start justify-start w-full px-4">
               <RiAdminLine size={48} className="text-bloo" />
             </div>
-            <div className="pt-6 h-full text-left">
+            <div className="pt-2 h-full text-left">
               <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 Efficient Administrative Management{" "}
               </h1>
@@ -387,7 +387,7 @@ function Logistics() {
             <div className=" rounded-full  flex items-start justify-start w-full px-4">
               <FaMagnifyingGlass size={48} className="text-bloo" />
             </div>
-            <div className="pt-6 h-full text-left">
+            <div className="pt-2 h-full text-left">
               <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 Comprehensive Learning Analytics{" "}
               </h1>
@@ -404,7 +404,7 @@ function Logistics() {
             <div className=" rounded-full  flex items-start justify-start w-full px-4">
               <GrVirtualMachine size={48} className="text-bloo" />
             </div>
-            <div className="pt-6 h-full text-left">
+            <div className="pt-2 h-full text-left">
               <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 Secure and Scalable Infrastructure{" "}
               </h1>
@@ -421,7 +421,7 @@ function Logistics() {
             <div className=" rounded-full  flex items-start justify-start w-full px-4">
               <FaMagnifyingGlass size={60} className="text-bloo" />
             </div>
-            <div className="pt-6 h-full text-left">
+            <div className="pt-2 h-full text-left">
               <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">Supply Chain Visibility and Analytics</h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg px-4">Offer comprehensive supply chain visibility solutions, integrating advanced analytics for predictive insights, demand forecasting, and improved decision-making across the logistics network.</p>
             </div>

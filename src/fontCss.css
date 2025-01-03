@@ -25,9 +25,25 @@
     font-size: 35px;
 }
 
-.fontsize_7
-{
+.fontsize_7 {
     font-size: 40px;
+}
+
+
+.responsiveFont1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.responsiveFont2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.blueHeading
+{
+    font-size: 25px;
+    font-weight: 600;
 }
 
 @media screen and (max-width:600px) {
@@ -39,11 +55,21 @@
         font-size: 30px;
     }
 
-    .fontsize_2 {
-        font-size: 18px;
+
+    .responsiveFont1 {
+        font-size: 25px;
+        font-weight: 600;
     }
 
-    
+    .responsiveFont2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+
+
+
+
 }
 
 
@@ -65,4 +91,4 @@
 
 .blueTextGlobalClass {
     color: rgba(1, 176, 241, 1);
-  }
+}

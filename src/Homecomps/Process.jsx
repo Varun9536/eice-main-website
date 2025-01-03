@@ -36,7 +36,7 @@ function Process() {
               <div className="justify-self-center bg-bannerai bg-cover w-[41vh] h-[38.3vh] scale-[1.1]"></div>
               <div>
                 <div className="justify-center flex flex-col w-full h-full">
-                  <h2 className="text-3xl fontweight_1 text-blackk">
+                  <h2 className="responsiveFont1 text-blackk">
                     Generative AI
                   </h2>
                   

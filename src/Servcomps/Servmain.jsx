@@ -59,7 +59,7 @@ function Servmain() {
         <div className="w-full rounded-xl scale-[.65] max-w-screen-2xl mx-auto ">
           <div  className="  bg-indusbanner w-full h-0 pb-[40%] sm:pb-[30%] lg:pb-[25%]   bg-cover bg-center bg-no-repeat rounded-full"></div>
         </div>
-        <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-center">
+        <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug px-1 text-center">
           At EICE, we offer a comprehensive suite of tech services designed to
           propel your business into the digital future. From cutting-edge app
           development to strategic consultancy, we're here to transform your
@@ -71,12 +71,12 @@ function Servmain() {
       <div className="py-">
         <div id="flagshipServices"></div>
         <div className="bg-zinc-50">
-          <div className="py-20 relative font-manrope mx-auto px-1 sm:max-w-7xl w-screen">
+          <div className="py-12 relative font-manrope mx-auto px-1 sm:max-w-7xl w-screen">
             <div>
               <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
                 Our Flagship Services
               </h1>
-              <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-center">
+              <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto px-1 sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-center">
                 Discover EICE's core offerings that drive innovation and
                 efficiency across industries. Our flagship services are designed
                 to give your business a competitive edge in the digital
@@ -90,7 +90,7 @@ function Servmain() {
                   className="group cursor-pointer p-4 bg-zinc-50 rounded-md overflow-hidden shadow-sm shadow-zinc-50 transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-zinc-50 border-transparent hover:border-gray-200 "
                 >
                   <div className="group-hover:scale-[.98] transition duration-200 grid grid-cols-1 ">
-                    <div className="w-full h-full items-center justify-start px-2 p">
+                    <div className="w-full h-full items-center justify-start px-1 ">
                       <LuCloudCog size={50} className="text-bloo" />
                     </div>
                     <div>
@@ -113,7 +113,7 @@ function Servmain() {
                   className="group cursor-pointer p-4 bg-zinc-50 rounded-md overflow-hidden shadow-sm shadow-zinc-50 transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-zinc-50 border-transparent hover:border-gray-200 "
                 >
                   <div className="group-hover:scale-[.98] transition duration-200 grid grid-cols-1 ">
-                    <div className="flex w-full h-full items-center justify-start px-2 ">
+                    <div className="flex w-full h-full items-center justify-start px-1 ">
                       <IoIosBuild size={50} className="text-bloo" />
                     </div>
                     <div>
@@ -136,7 +136,7 @@ function Servmain() {
                   className="group cursor-pointer p-4 bg-zinc-50 rounded-md overflow-hidden shadow-sm shadow-zinc-50 transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-zinc-50 border-transparent hover:border-gray-200 "
                 >
                   <div className="group-hover:scale-[.98] transition duration-200 grid grid-cols-1 ">
-                    <div className="flex w-full h-full items-center justify-start px-2 ">
+                    <div className="flex w-full h-full items-center justify-start  ">
                       <div className="grid grid-cols-2 gap-0">
                         <TbLetterA size={50} className="text-bloo" />
                         <TbLetterI size={50} className="text-bloo -ml-8" />
@@ -171,7 +171,7 @@ function Servmain() {
             <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
               Emerging Technologies
             </h1>
-            <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-center">
+            <h2 className="text-blackk/60 font-semibold px-1 max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-center">
               Stay ahead of the curve with EICE's expertise in cutting-edge
               technologies. We help businesses leverage the latest innovations
               to create new opportunities and drive unprecedented growth.
@@ -184,7 +184,7 @@ function Servmain() {
                 to="/Services-Aiml"
                 className="group cursor-pointer p-8 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200 "
               >
-                <div className="rounded-full  px-4">
+                <div className="rounded-full  px-3">
                   <LuBrainCircuit size={60} className="text-bloo" />
                 </div>
                 <div className="pt-4 h-full text-left">
@@ -240,7 +240,7 @@ function Servmain() {
       </div>
 
       <div className="bg-zinc-50" id="appDevelopment">
-        <div className="py-16 relative font-manrope mx-auto px-1 sm:max-w-7xl w-screen">
+        <div className="py-12 relative font-manrope mx-auto px-1 sm:max-w-7xl w-screen">
           <div>
             <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
               App Development Services
@@ -298,7 +298,7 @@ function Servmain() {
                 to="/Services-Chatbot"
                 className="group cursor-pointer p-8 bg-zinc-50 rounded-md overflow-hidden shadow-sm shadow-zinc-50 transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-zinc-50 border-transparent hover:border-gray-200"
               >
-                <div className="flex px-4 rounded-full ">
+                <div className="flex px-3 rounded-full ">
                   <IoIosChatboxes size={60} className="text-bloo" />
                 </div>
                 <div className="pt-2 h-full text-left">
@@ -323,12 +323,11 @@ function Servmain() {
           </h1>
         </div>
       </div>
-      
       <div
         id="consultancy"
         className="px-4 pb-12 max-w-7xl mx-auto grid lg:grid-cols-2 grid-cols-1 gap-10"
       >
-        {/* <Link
+        <Link
           to="/Services-Techconsultancy"
           className="relative cursor-pointer group "
         >
@@ -362,8 +361,8 @@ function Servmain() {
               </div>
             </div>
           </div>
-        </Link> */}
-        {/* <Link to="/Services-Uiuxconsulting" className="relative">
+        </Link>
+        <Link to="/Services-Uiuxconsulting" className="relative">
           <img
             src={uiuxdesign}
             alt=""
@@ -390,7 +389,7 @@ function Servmain() {
               </div>
             </div>
           </div>
-        </Link> */}
+        </Link>
       </div>
       <div>{/* Technical Services */}</div>
     </div>

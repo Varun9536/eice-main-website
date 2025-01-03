@@ -13,7 +13,7 @@ function Clientele() {
           Journey so far
         </h2>
         <h1 className="text-center fontsize_6 fontweight_1 mb-8 sm:mb-12 lg:mb-16">
-          Milestones and achievements
+          Milestones and Achievements
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-6 lg:gap-12">

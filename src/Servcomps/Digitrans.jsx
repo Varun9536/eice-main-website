@@ -287,10 +287,10 @@ function Digitrans() {
 
       <div className="bg-zinc-50 pb-16 ">
         <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen pt-8">
-          <h1 className="text-bloo fontweight_1 fontsize_6 text-center">
+          <h1 className="text-bloo responsiveFont1 text-center">
             Why Choose EICE
           </h1>
-          <h2 className="text-blackk fontweight_1 fontsize_2 text-center px-4 mt-4">
+          <h2 className="text-blackk responsiveFont2 text-center px-4 mt-4">
             Key Advantages of Partnering with EICE for Your AI/ML and Generative
             AI Journey
           </h2>

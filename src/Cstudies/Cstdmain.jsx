@@ -226,14 +226,14 @@ function Cstdmain() {
         <h1 className="text-blackk fontsize_6 fontweight_1 mb-4">
           CASE STUDIES
         </h1>
-        <p className="text-blackk text-xl  md:text-2xl max-w-3xl py-2 mx-auto px-4">
+        <p className="text-blackk text-xl fontweight_1  md:text-2xl max-w-3xl py-2 mx-auto px-4">
           Explore{" "}
-          <span className="text-bloo fontweight_1">Real-World Examples</span> of
+          <span className="text-bloo fontweight_2">Real-World Examples</span> of
           how EICE has transformed businesses across industries through
           innovative software solutions and unparalleled expertise.
         </p>
       </header>
-      <main className=" mx-auto max-w-7xl pt-8">
+      <main className="container mx-auto max-w-7xl pt-8">
         <nav className="mb-8 sm:mb-12">
           <ul className="flex flex-wrap justify-center gap-2 sm:gap-4">
             {industries.map((industry) => (

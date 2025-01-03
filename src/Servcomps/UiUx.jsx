@@ -211,7 +211,7 @@ function Uiux() {
               </h1>
             </div>
             <div>
-              <p className="font-medium text-blackk/60 sm:text-xl text-lg text-justify">
+              <p className="font-medium text-blackk/60 sm:text-xl text-lg">
                 In today’s competitive digital landscape, delivering exceptional
                 user experiences is crucial for retaining customers, driving
                 engagement, and achieving business success. UI/UX consulting

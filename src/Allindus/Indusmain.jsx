@@ -145,11 +145,11 @@ function Indusmain() {
           ))}
         </div>
 
-        <div className="pt-12 pb-4 grid lg:grid-cols-2 grid-cols-1 gap-8">
-          <h1 className="text-bloo fontweight_1 fontsize_6  flex items-center justify-center">
+        <div className="pt-12 pb-4 grid lg:grid-cols-2 grid-cols-1 gap-4">
+          <h1 className="text-bloo flex items-center justify-center h-full  text-center responsiveFont1   py-2">
             Why Choose EICE
           </h1>
-          <h1 className="text-blackk fontweight_1 fontsize_2 mb-4">
+          <h1 className="text-blackk  responsiveFont2  mb-4">
             <span className="">Partner with EICE</span> to accelerate your
             digital transformation journey. Our expertise in emerging
             technologies and industry-specific solutions will help you

@@ -18,14 +18,14 @@ function Resourcesmain() {
     <div>
       <div className="bg-gradient-to-br mt-24 from-cyan-100/10 to-bloo/10 w-screen 2xl:h-[35vh] h-[60vh] bg-cover bg-no-repeat ">
         <div className=" max-w-7xl mx-auto w-full h-full">
-          <div className="2xl:pt-0 pt-24 flex flex-col items-center justify-center w-full h-full ">
+          <div className="2xl:pt-0  flex flex-col items-center justify-center w-full h-full ">
             <h1 className="text-blackk fontweight_1 text-center fontsize_6 py-2">
               EICE Resources
             </h1>
             <h2 className="text-bloo font-semibold text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-4">
               Case Studies, Blogs and more
             </h2>
-            <h2 className="text-blackk/60 font-medium text-center sm:text-lg mx-auto lg:text-xl max-w-6xl py-2">
+            <h2 className="text-blackk/60 px-2 font-medium text-center sm:text-lg mx-auto lg:text-xl max-w-6xl py-2">
               Explore a wealth of knowledge and insights designed to help you
               navigate the complexities of digital transformation and stay ahead
               in your industry. Our resources are curated by experts to provide
