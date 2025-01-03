@@ -15,7 +15,7 @@ function Scopes() {
       <div className="text-center text-blackk fontweight_1 sm:text-4xl text-3xl">
         <div className="flex flex-col items-center justify-center text-center sm:pb-6 pb-2">
           <h1 className="text-bloo fontweight_1 fontsize_2 pb-4">
-            Engage with Us
+            Engage With Us
           </h1>
           <h2 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
             Choosing an appropriate engagement method for your project
@@ -30,7 +30,7 @@ function Scopes() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col gap-24 items-center justify-center sm:pt-20 pt-16">
+      <div className="flex flex-col gap-12 items-center justify-center sm:pt-20 pt-16">
         <div className="lg:grid lg:grid-cols-2 flex flex-col items-center justify-center w-full h-full">
           <div className="relative w-11/12 h-[30rem] items-center justify-center flex justify-self-start">
             <div className="flex flex-col lg:p-16 ps:p-5  absolute inset-0 justify-center">

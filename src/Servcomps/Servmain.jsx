@@ -54,7 +54,7 @@ function Servmain() {
           Our Services
         </h1>
         <h2 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
-          Explore what we offer
+          Explore What We Offer
         </h2>
         <div className="w-full rounded-xl scale-[.65] max-w-screen-2xl mx-auto ">
           <div  className="  bg-indusbanner w-full h-0 pb-[40%] sm:pb-[30%] lg:pb-[25%]   bg-cover bg-center bg-no-repeat rounded-full"></div>
@@ -259,17 +259,17 @@ function Servmain() {
                 to="/Services-SAAS"
                 className="group cursor-pointer p-8 bg-zinc-50 rounded-md overflow-hidden shadow-sm shadow-zinc-50 transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-zinc-50 border-transparent hover:border-gray-200"
               >
-                <div className="flex px-4 rounded-full ">
+                <div className="flex px-1 rounded-full ">
                   <GrCloudSoftware
                     size={60}
                     className=" rounded-full text-bloo"
                   />
                 </div>
                 <div className="pt-2 h-full text-left">
-                  <h1 className="text-blackk fontweight_1 text-xl  pb-3 sm:text-2xl px-4">
+                  <h1 className="text-blackk fontweight_1 text-xl  pb-3 sm:text-2xl px-1">
                     SAAS DEVELOPMENT
                   </h1>
-                  <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-4">
+                  <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-1">
                     Transform your software into a scalable service with EICE's
                     SAAS development. We build cloud-based applications that
                     offer flexibility and accessibility to your customers.
@@ -280,14 +280,14 @@ function Servmain() {
                 to="/Services-Webdevelopment"
                 className="group cursor-pointer p-8 bg-zinc-50 rounded-md overflow-hidden shadow-sm shadow-zinc-50 transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-zinc-50 border-transparent hover:border-gray-200"
               >
-                <div className="flex px-4 rounded-full ">
+                <div className="flex px-1 rounded-full ">
                   <FaLaptopCode size={60} className=" text-bloo" />
                 </div>
                 <div className="pt-2 h-full text-left ">
-                  <h1 className="text-blackk fontweight_1 text-xl   sm:text-2xl px-4">
+                  <h1 className="text-blackk fontweight_1 text-xl mb-3   sm:text-2xl px-1">
                     WEB APP DEVELOPMENT
                   </h1>
-                  <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-4">
+                  <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-1">
                     Create powerful web applications with EICE. We develop
                     responsive, feature-rich web apps that work seamlessly
                     across all devices and platforms.
@@ -298,14 +298,14 @@ function Servmain() {
                 to="/Services-Chatbot"
                 className="group cursor-pointer p-8 bg-zinc-50 rounded-md overflow-hidden shadow-sm shadow-zinc-50 transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-zinc-50 border-transparent hover:border-gray-200"
               >
-                <div className="flex px-3 rounded-full ">
+                <div className="flex  rounded-full ">
                   <IoIosChatboxes size={60} className="text-bloo" />
                 </div>
                 <div className="pt-2 h-full text-left">
-                  <h1 className="text-blackk fontweight_1 text-xl   sm:text-2xl px-4">
+                  <h1 className="text-blackk fontweight_1 text-xl mb-3  sm:text-2xl ">
                     CHAT BOT DEVELOPMENT
                   </h1>
-                  <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-4">
+                  <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left ">
                     Enhance customer service with EICE's chatbot solutions. We
                     create intelligent, conversational AI bots that can handle
                     queries, automate tasks, and improve user engagement.

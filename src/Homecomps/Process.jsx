@@ -76,14 +76,14 @@ function Process() {
                 </div>
                 <div className="w-9/12">
                   <h2 className="text-2xl font-semibold mb-4 text-gray-600">
-                    Things we Make
+                    Things We Make
                   </h2>
-                  <div className="flex items-center justify-center bg-gradient-to-br from-blue-900 to-blue-600 p-6 rounded-lg shadow-lg">
+                  <div className="flex items-center justify-center bg-gradient-to-br from-blue-900 to-blue-600 p-8 rounded-lg shadow-lg">
                     <div className="grid grid-cols-1 gap-3">
-                      <h2 className="text-2xl font-semibold mb-4 text-white">
+                      <h2 className="text-xl font-semibold mb-4 text-white">
                         ChatBots
                       </h2>
-                      <h2 className="text-2xl font-semibold mb-4 text-white">
+                      <h2 className="text-xl font-semibold mb-4 text-white">
                         Dataset Generation
                       </h2>
                     </div>
