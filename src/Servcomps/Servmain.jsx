@@ -319,7 +319,7 @@ function Servmain() {
       <div className="pt-12 pb-8">
         <div>
           <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
-            Consultancy Services
+            {/* Consultancy Services */}
           </h1>
         </div>
       </div>
