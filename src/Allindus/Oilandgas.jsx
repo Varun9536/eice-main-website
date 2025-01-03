@@ -251,7 +251,7 @@ function Oilandgas() {
 
   return (
     <div className="">
-      <div className="sm:max-w-7xl w-screen mx-auto pb-8">
+      <div className="sm:max-w-7xl w-screen mx-auto ">
         <div className="sm:max-w-7xl 2xl:pt-12 pt-32 xl:pb-12 pb-4 px-4 w-screen mx-auto grid ">
           <img
             src={oilandgas_img}
@@ -332,18 +332,18 @@ function Oilandgas() {
             </div>
           </div>
         </div>
-        <div className="pt-20 pb-6">
-          <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl pb-4">
+        <div className="pt-8 pb-6">
+          <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:mb-4 lg:text-[32px] max-w-3xl ">
             Empowering Oil & Gas Operations with Innovative Software Solutions
             for a Sustainable Future
           </h1>
         </div>
         <div className="grid px-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 pb-16">
-          <div className="group  p-8 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200">
+          <div className="group  p-4 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200">
             <div className=" rounded-full flex items-start justify-start w-full px-4">
               <MdCheckBox size={48} className="text-bloo" />
             </div>
-            <div className="pt-6 h-full text-left">
+            <div className=" h-full text-left">
               <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 Needs Assessment and Planning
               </h1>
@@ -355,11 +355,11 @@ function Oilandgas() {
             </div>
           </div>
 
-          <div className="group  p-8 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200">
+          <div className="group  p-4 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200">
             <div className=" rounded-full  flex items-start justify-start w-full px-4">
               <BiCode size={48} className="text-bloo" />
             </div>
-            <div className="pt-6 h-full text-left">
+            <div className=" h-full text-left">
               <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 Solution Design and Development
               </h1>
@@ -371,11 +371,11 @@ function Oilandgas() {
             </div>
           </div>
 
-          <div className="group  p-8 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200">
+          <div className="group p-4 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200">
             <div className=" rounded-full  flex items-start justify-start w-full px-4">
               <GrIntegration size={48} className="text-bloo" />
             </div>
-            <div className="pt-6 h-full text-left">
+            <div className=" h-full text-left">
               <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 Implementation and Integration
               </h1>
@@ -387,11 +387,11 @@ function Oilandgas() {
             </div>
           </div>
 
-          <div className="group  p-8 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200">
+          <div className="group p-4 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200">
             <div className=" rounded-full  flex items-start justify-start w-full px-4">
               <GrCheckboxSelected size={48} className="text-bloo" />
             </div>
-            <div className="pt-6 h-full text-left">
+            <div className=" h-full text-left">
               <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 Testing and Quality Assurance
               </h1>
@@ -403,11 +403,11 @@ function Oilandgas() {
             </div>
           </div>
 
-          <div className="group  p-8 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200">
+          <div className="group p-4 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200">
             <div className=" rounded-full  flex items-start justify-start w-full px-4">
               <BiSupport size={48} className="text-bloo" />
             </div>
-            <div className="pt-6 h-full text-left">
+            <div className=" h-full text-left">
               <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 Training and Support
               </h1>
@@ -419,11 +419,11 @@ function Oilandgas() {
             </div>
           </div>
 
-          <div className="group  p-8 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200">
+          <div className="group p-4 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200">
             <div className=" rounded-full  flex items-start justify-start w-full px-4">
               <LuMonitorDot size={48} className="text-bloo" />
             </div>
-            <div className="pt-6 h-full text-left">
+            <div className=" h-full text-left">
               <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 {" "}
                 Monitoring and Optimization

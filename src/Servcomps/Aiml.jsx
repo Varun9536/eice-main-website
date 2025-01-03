@@ -262,18 +262,18 @@ function Aiml() {
         </div>
       </div>
 
-      <div className="bg-zinc-50 pb-12  my-12">
+      <div className="bg-zinc-50 pb-12  my-4">
         <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen pt-12">
-          <h1 className="text-bloo fontweight_1 fontsize_6  pb-4 text-center">
+          <h1 className="text-bloo fontweight_1 fontsize_6  flex items-center justify-center">
             Why Choose EICE
           </h1>
-          <h2 className="text-blackk fontweight_1  fontsize_2 text-center">
+          <h2 className="text-blackk fontweight_1  px-4 mt-4 fontsize_2 text-center">
             Key Advantages of Partnering with EICE for Your AI/ML and Generative
             AI Journey
           </h2>
         </div>
         <div className="">
-          <div className="relative px-4 font-manrope mx-auto sm:max-w-7xl w-screen pt-20">
+          <div className="relative px-4 font-manrope mx-auto sm:max-w-7xl w-screen pt-12">
             <div className="grid grid-cols-1 gap-10">
               {[
                 {

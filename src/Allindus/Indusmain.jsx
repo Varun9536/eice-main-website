@@ -21,13 +21,13 @@ const IndustryCard = ({ to, color, Icon, title, description }) => (
     className={`group cursor-pointer p-4 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200`}
   >
     <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 group-hover:scale-[.98] transition duration-300">
-      <div className="flex items-center justify-center">
-        <div className={`p-1 rounded-full bg-${color}-400/20`}>
+      <div className="flex items-center ">
+        <div className={` rounded-full bg-${color}-400/20`}>
           <img src={Icon} className="text-blackk" />
         </div>
       </div>
       <div>
-        <h3 className="font-semibold text-xl sm:text-2xl py-2">{title}</h3>
+        <h3 className="font-semibold text-xl sm:text-2xl ">{title}</h3>
         <p className="font-medium text-blackk/60 sm:text-xl text-lg">
           {description}
         </p>
@@ -112,7 +112,7 @@ function Indusmain() {
             Driving <span className="text-bloo">Digital Transformation</span>{" "}
             Across Industries
           </h1>
-          <p className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-center">
+          <p className="text-blackk/60 font-semibold max-w-5xl mx-auto  py-8 fontweight_1 fontsize_2 sm:leading-tight leading-snug text-center">
             EICE empowers businesses to thrive in the digital age by leveraging
             cutting-edge technologies and innovative strategies, revolutionizing
             operations and enhancing competitiveness.
@@ -145,8 +145,8 @@ function Indusmain() {
           ))}
         </div>
 
-        <div className="pt-24 pb-4 grid lg:grid-cols-2 grid-cols-1 gap-20">
-          <h1 className="text-bloo fontweight_1 fontsize_6 mb-4 flex items-center justify-center">
+        <div className="pt-12 pb-4 grid lg:grid-cols-2 grid-cols-1 gap-8">
+          <h1 className="text-bloo fontweight_1 fontsize_6  flex items-center justify-center">
             Why Choose EICE
           </h1>
           <h1 className="text-blackk fontweight_1 fontsize_2 mb-4">

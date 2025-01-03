@@ -89,8 +89,8 @@ function Servmain() {
                   to="/Services-Digitaltransformation"
                   className="group cursor-pointer p-4 bg-zinc-50 rounded-md overflow-hidden shadow-sm shadow-zinc-50 transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-zinc-50 border-transparent hover:border-gray-200 "
                 >
-                  <div className="group-hover:scale-[.98] transition duration-200 grid grid-cols-1 gap-3">
-                    <div className="w-full h-full items-center justify-start px-2 pb-2">
+                  <div className="group-hover:scale-[.98] transition duration-200 grid grid-cols-1 ">
+                    <div className="w-full h-full items-center justify-start px-2 p">
                       <LuCloudCog size={50} className="text-bloo" />
                     </div>
                     <div>
@@ -112,8 +112,8 @@ function Servmain() {
                   to="/Services-Devops"
                   className="group cursor-pointer p-4 bg-zinc-50 rounded-md overflow-hidden shadow-sm shadow-zinc-50 transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-zinc-50 border-transparent hover:border-gray-200 "
                 >
-                  <div className="group-hover:scale-[.98] transition duration-200 grid grid-cols-1 gap-3">
-                    <div className="flex w-full h-full items-center justify-start px-2 pb-2">
+                  <div className="group-hover:scale-[.98] transition duration-200 grid grid-cols-1 ">
+                    <div className="flex w-full h-full items-center justify-start px-2 ">
                       <IoIosBuild size={50} className="text-bloo" />
                     </div>
                     <div>
@@ -135,8 +135,8 @@ function Servmain() {
                   to="/Services-Aiml"
                   className="group cursor-pointer p-4 bg-zinc-50 rounded-md overflow-hidden shadow-sm shadow-zinc-50 transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-zinc-50 border-transparent hover:border-gray-200 "
                 >
-                  <div className="group-hover:scale-[.98] transition duration-200 grid grid-cols-1 gap-3">
-                    <div className="flex w-full h-full items-center justify-start px-2 pb-2">
+                  <div className="group-hover:scale-[.98] transition duration-200 grid grid-cols-1 ">
+                    <div className="flex w-full h-full items-center justify-start px-2 ">
                       <div className="grid grid-cols-2 gap-0">
                         <TbLetterA size={50} className="text-bloo" />
                         <TbLetterI size={50} className="text-bloo -ml-8" />
@@ -184,11 +184,11 @@ function Servmain() {
                 to="/Services-Aiml"
                 className="group cursor-pointer p-8 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200 "
               >
-                <div className="rounded-full py-2 px-4">
+                <div className="rounded-full  px-4">
                   <LuBrainCircuit size={60} className="text-bloo" />
                 </div>
-                <div className="pt-6 h-full text-left">
-                  <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
+                <div className="pt-4 h-full text-left">
+                  <h1 className="text-blackk fontweight_1 text-xl  pb-3 sm:text-2xl px-4">
                     AI & ML
                   </h1>
                   <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-4">
@@ -202,11 +202,11 @@ function Servmain() {
                 to="/Services-Iot"
                 className="group cursor-pointer p-8 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200 "
               >
-                <div className=" rounded-full py-2 px-4">
+                <div className=" rounded-full  px-4">
                   <GiCircuitry size={60} className="text-bloo" />
                 </div>
-                <div className="pt-6 h-full ">
-                  <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
+                <div className="pt-4 h-full ">
+                  <h1 className="text-blackk fontweight_1 text-xl  pb-3 sm:text-2xl px-4">
                     INTERNET OF THINGS
                   </h1>
                   <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-4">
@@ -220,11 +220,11 @@ function Servmain() {
                 to="/Services-Blockchain"
                 className="group cursor-pointer p-8 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200 "
               >
-                <div className=" rounded-full py-2 px-4">
+                <div className=" rounded-full  px-4">
                   <SiBlockchaindotcom size={60} className="text-bloo" />
                 </div>
-                <div className="pt-6 h-full text-left">
-                  <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
+                <div className="pt-4 h-full text-left">
+                  <h1 className="text-blackk fontweight_1 text-xl  pb-3 sm:text-2xl px-4">
                     BLOCKCHAIN DEVELOPMENT
                   </h1>
                   <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-4">
@@ -265,8 +265,8 @@ function Servmain() {
                     className=" rounded-full text-bloo"
                   />
                 </div>
-                <div className="pt-6 h-full text-left">
-                  <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
+                <div className="pt-2 h-full text-left">
+                  <h1 className="text-blackk fontweight_1 text-xl  pb-3 sm:text-2xl px-4">
                     SAAS DEVELOPMENT
                   </h1>
                   <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-4">
@@ -283,8 +283,8 @@ function Servmain() {
                 <div className="flex px-4 rounded-full ">
                   <FaLaptopCode size={60} className=" text-bloo" />
                 </div>
-                <div className="pt-6 h-full text-left ">
-                  <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
+                <div className="pt-2 h-full text-left ">
+                  <h1 className="text-blackk fontweight_1 text-xl   sm:text-2xl px-4">
                     WEB APP DEVELOPMENT
                   </h1>
                   <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-4">
@@ -301,8 +301,8 @@ function Servmain() {
                 <div className="flex px-4 rounded-full ">
                   <IoIosChatboxes size={60} className="text-bloo" />
                 </div>
-                <div className="pt-6 h-full text-left">
-                  <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
+                <div className="pt-2 h-full text-left">
+                  <h1 className="text-blackk fontweight_1 text-xl   sm:text-2xl px-4">
                     CHAT BOT DEVELOPMENT
                   </h1>
                   <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-4">
@@ -323,11 +323,12 @@ function Servmain() {
           </h1>
         </div>
       </div>
+      
       <div
         id="consultancy"
         className="px-4 pb-12 max-w-7xl mx-auto grid lg:grid-cols-2 grid-cols-1 gap-10"
       >
-        <Link
+        {/* <Link
           to="/Services-Techconsultancy"
           className="relative cursor-pointer group "
         >
@@ -361,8 +362,8 @@ function Servmain() {
               </div>
             </div>
           </div>
-        </Link>
-        <Link to="/Services-Uiuxconsulting" className="relative">
+        </Link> */}
+        {/* <Link to="/Services-Uiuxconsulting" className="relative">
           <img
             src={uiuxdesign}
             alt=""
@@ -389,7 +390,7 @@ function Servmain() {
               </div>
             </div>
           </div>
-        </Link>
+        </Link> */}
       </div>
       <div>{/* Technical Services */}</div>
     </div>

@@ -279,14 +279,14 @@ function ContactForm() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-8">
             <AddressCard
               country="United States"
-              company="EICE"
+              company="EICE Technology PVT LTD"
               address="440 Cobia Drive, #901 Katy, Texas 77494"
               phone=""
               email="info@eicetechnology.com"
             />
             <AddressCard
               country="India"
-              company="EICE"
+              company="EICE Technology PVT LTD"
               address="B-8 Second Floor Sec-60, Noida 201301"
               phone=""
               email="info@eicetechnology.com"
