@@ -3,7 +3,7 @@ import Clients from "./Clients";
 
 function Clientele() {
   return (
-    <div className="relative font-manrope text-blackk  px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div className="relative font-manrope text-blackk mb-8 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="absolute inset-0 w-full h-full -z-10">
         <div className="bg-map bg-no-repeat bg-cover bg-center h-full w-full opacity-70"></div>
       </div>
