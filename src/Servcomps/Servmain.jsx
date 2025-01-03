@@ -327,7 +327,7 @@ function Servmain() {
         id="consultancy"
         className="px-4 pb-12 max-w-7xl mx-auto grid lg:grid-cols-2 grid-cols-1 gap-10"
       >
-        <Link
+        {/* <Link
           to="/Services-Techconsultancy"
           className="relative cursor-pointer group "
         >
@@ -389,7 +389,7 @@ function Servmain() {
               </div>
             </div>
           </div>
-        </Link>
+        </Link> */}
       </div>
       <div>{/* Technical Services */}</div>
     </div>
