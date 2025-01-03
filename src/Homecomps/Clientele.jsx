@@ -17,7 +17,7 @@ function Clientele() {
         </h1>
 
         {/* <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-6 lg:gap-12"> */}
-        <div style={{display :"flex" , justifyContent : "space-between" }}>
+        <div style={{display :"flex" , justifyContent : "space-between" , columnGap : "1rem" }}>
           <Milestone number="14+" text="Years" smallText="Of Experience" />
           <Milestone
             number="150+"
