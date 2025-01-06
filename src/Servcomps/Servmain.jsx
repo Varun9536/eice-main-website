@@ -433,7 +433,7 @@ function Servmain() {
               />
               <div>
                 <h1 className="py-2 text-3xl fontweight_1">App Consulting</h1>
-                <p className="text-wrap h-32 text-base font-medium lg:text-lg">
+                <p className="text-wrap  text-base font-medium lg:text-lg">
                   EICE provides expert guidance on app strategy, development,
                   and optimization. Our consultants help you make informed
                   decisions about technology stack, user experience, and
@@ -458,7 +458,7 @@ function Servmain() {
               />
               <div>
                 <h1 className="py-2 text-3xl fontweight_1">UI/UX Consulting</h1>
-                <p className="text-wrap h-32 text-base font-medium lg:text-lg">
+                <p className="text-wrap  text-base font-medium lg:text-lg">
                   EICE offers specialized UI/UX consulting services to enhance
                   your digital products. Our experts provide insights on user
                   interface design and user experience. We help you create
