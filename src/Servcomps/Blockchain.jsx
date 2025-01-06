@@ -37,8 +37,8 @@ import adai from "../assets/Automobile/adai.jpeg"
 import ccp from "../assets/Automobile/ccp.jpg"
 import mpo from "../assets/Automobile/mpo.jpg"
 
-import  aipdt from "../assets/medical/aipdt.jpeg"
-import  tmp from "../assets/medical/tmp.jpeg"
+import aipdt from "../assets/medical/aipdt.jpeg"
+import tmp from "../assets/medical/tmp.jpeg"
 
 import blockchain from "../assets/Service_and_technology/blockchain.jpg"
 
@@ -56,35 +56,35 @@ const projects = {
       title: "Offshore Platform Optimization",
       description:
         "Improved production efficiency by 25% through advanced AI-driven monitoring systems.",
-        img : opo
-        
+      img: opo
+
     },
     {
       title: "Energy Trading Platform",
       description:
         "Built a blockchain-based trading platform, improving transaction security and reducing costs by 20%.",
-        img : etp
+      img: etp
     },
   ],
   auto: [
-    
+
     {
       title: "Autonomous Driving AI",
       description:
         "Created a machine learning model improving object detection accuracy by 30% in diverse weather conditions.",
-        img : adai
+      img: adai
     },
     {
       title: "Connected Car Platform",
       description:
         "Designed a cloud-based system enabling OTA updates and predictive maintenance for 100,000+ vehicles.",
-    img : ccp
-      },
+      img: ccp
+    },
     {
       title: "Manufacturing Process Optimization",
       description:
         "Implemented an AI-driven system reducing production line downtime by 40% and improving quality control.",
-        img :mpo
+      img: mpo
     },
   ],
   health: [
@@ -92,13 +92,13 @@ const projects = {
       title: "AI-Powered Diagnostic Tool",
       description:
         "Developed an AI algorithm for early cancer detection, improving accuracy by 15% over traditional methods.",
-        img : adai
+      img: adai
     },
     {
       title: "Telemedicine Platform",
       description:
         "Created a secure, HIPAA-compliant telehealth solution, facilitating over 1 million virtual consultations.",
-        img :tmp
+      img: tmp
     },
   ],
 };
@@ -139,11 +139,10 @@ function Cstdmain() {
               <li key={industry.id}>
                 <button
                   onClick={() => setActiveIndustry(industry.id)}
-                  className={`px-3 py-1 sm:px-4 sm:py-2 text-sm sm:text-base rounded-full transition ${
-                    activeIndustry === industry.id
+                  className={`px-3 py-1 sm:px-4 sm:py-2 text-sm sm:text-base rounded-full transition ${activeIndustry === industry.id
                       ? "bg-blue-900 text-white"
                       : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-                  }`}
+                    }`}
                 >
                   {industry.name}
                 </button>
@@ -155,9 +154,8 @@ function Cstdmain() {
         {industries.map((industry) => (
           <section
             key={industry.id}
-            className={`mb-12 px-2 ${
-              activeIndustry === industry.id ? "block" : "hidden"
-            }`}
+            className={`mb-12 px-2 ${activeIndustry === industry.id ? "block" : "hidden"
+              }`}
           >
             <h2 className="text-xl px-2 sm:text-2xl fontweight_1 mb-4 sm:mb-6">
               {industry.name}
@@ -193,14 +191,14 @@ function Blockchain() {
                 Blockchain Development
               </h1>
               <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-left">
-                
-                  Leading Blockchain Development Services Pioneering the Future of Digital Solutions
-                
+
+                Leading Blockchain Development Services Pioneering the Future of Digital Solutions
+
               </h2>
             </div>
-            <div style={{width : "800px"}} className="lg:flex w-90 hidden items-center justify-end ">
+            <div style={{ width: "800px" }} className="lg:flex w-90 hidden items-center justify-end ">
               <div className=" w-3/4 ">
-                <img  src={blockchain} alt="" className="rounded-full" />
+                <img src={blockchain} alt="" className="rounded-full" />
               </div>
             </div>
           </div>
@@ -214,7 +212,7 @@ function Blockchain() {
               <h1 className="text-blackk  fontsize_2 fontweight_1">
                 Cutting-Edge{" "}
                 <span className="text-bloo">Web App Development Services</span>{" "}
-                 Transforming Ideas into High Impact Digital Solutions
+                Transforming Ideas into High Impact Digital Solutions
               </h1>
             </div>
             <div>

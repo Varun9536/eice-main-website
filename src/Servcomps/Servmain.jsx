@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Offers from "../Homecomps/Offers";
+import styles from "./styles/servmain.module.css"
 // import "./Styles/Servmain.css"
 
 import {
@@ -32,8 +33,33 @@ import { TbLetterA, TbLetterI } from "react-icons/tb";
 import consultancy from "../assets/Compressed/consultancy.jpg";
 import uiuxdesign from "../assets/Compressed/uiuxdesign.jpg";
 import { Link } from "react-router-dom";
+import { height, positions, width } from "@mui/system";
 function Servmain() {
   const location = useLocation();
+
+
+  const appStyle = {
+    backgroundImage: `url(${consultancy})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+
+
+    width: "35rem",
+    height: "25rem",
+    position: "relative"
+
+  };
+  const uiuxStyle = {
+    backgroundImage: `url(${uiuxdesign})  `,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+
+    width: "35rem",
+    height: "25rem",
+    position: "relative"
+
+
+  };
 
   useEffect(() => {
     const searchParams = new URLSearchParams(location.search);
@@ -57,7 +83,7 @@ function Servmain() {
           Explore What We Offer
         </h2>
         <div className="w-full rounded-xl scale-[.65] max-w-screen-2xl mx-auto ">
-          <div  className="  bg-indusbanner w-full h-0 pb-[40%] sm:pb-[30%] lg:pb-[25%]   bg-cover bg-center bg-no-repeat rounded-full"></div>
+          <div className="  bg-indusbanner w-full h-0 pb-[40%] sm:pb-[30%] lg:pb-[25%]   bg-cover bg-center bg-no-repeat rounded-full"></div>
         </div>
         <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug px-1 text-center">
           At EICE, we offer a comprehensive suite of tech services designed to
@@ -323,11 +349,11 @@ function Servmain() {
           </h1>
         </div>
       </div>
-      <div
+      {/* <div
         id="consultancy"
         className="px-4 pb-12 max-w-7xl mx-auto grid lg:grid-cols-2 grid-cols-1 gap-10"
-      >
-        {/* <Link
+      > */}
+      {/* <Link
           to="/Services-Techconsultancy"
           className="relative cursor-pointer group "
         >
@@ -390,7 +416,64 @@ function Servmain() {
             </div>
           </div>
         </Link> */}
+
+      <div className={`${styles.cosultingContainer}`}>
+
+        <div style={appStyle} className={`${styles.appConsult}`}>
+
+          <div className={`${styles.text}`}>
+            <div className="">
+              <FaPeopleArrows
+                size={50}
+                className="text-white lg:hidden pr-2 "
+              />
+              <FaPeopleArrows
+                size={60}
+                className="text-white hidden lg:block pr-2"
+              />
+              <div>
+                <h1 className="py-2 text-3xl fontweight_1">App Consulting</h1>
+                <p className="text-wrap h-32 text-base font-medium lg:text-lg">
+                  EICE provides expert guidance on app strategy, development,
+                  and optimization. Our consultants help you make informed
+                  decisions about technology stack, user experience, and
+                  market positioning to ensure your app's success.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div style={uiuxStyle} className={`${styles.uiuxConsult}`}>
+
+          <div className={`${styles.text}`}>
+
+            <div className="h-3/4"></div>
+            <div className="">
+              <FaPencilRuler size={50} className="text-white lg:hidden pr-2 " />
+              <FaPencilRuler
+                size={60}
+                className="text-white hidden lg:block pr-2"
+              />
+              <div>
+                <h1 className="py-2 text-3xl fontweight_1">UI/UX Consulting</h1>
+                <p className="text-wrap h-32 text-base font-medium lg:text-lg">
+                  EICE offers specialized UI/UX consulting services to enhance
+                  your digital products. Our experts provide insights on user
+                  interface design and user experience. We help you create
+                  ensure your product stands out in the market and delivers
+                  exceptional user satisfaction.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
+      {/* </div> */}
       <div>{/* Technical Services */}</div>
     </div>
   );

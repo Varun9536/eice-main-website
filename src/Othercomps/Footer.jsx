@@ -66,7 +66,7 @@ function Footer() {
             India.
           </p>
           <div className="flex space-x-4">
-{/*             
+            {/*             
             <Link
               to={"https://twitter.com/EiceTech24"}
               target="_blank"
@@ -118,34 +118,34 @@ function Footer() {
             </Link> */}
 
 
-<div>
-                                    <Link to={"https://www.linkedin.com/company/eice-technology/posts/?feedView=all&viewAsMember=true"}>
-                                        <FaLinkedin size={30} className="blueTextGlobalClass" />
-                                    </Link>
+            <div>
+              <Link to={"https://www.linkedin.com/company/eice-technology/posts/?feedView=all&viewAsMember=true"}>
+                <FaLinkedin size={30} className="blueTextGlobalClass" />
+              </Link>
 
-                                </div>
+            </div>
 
-                                <div>
-                                    <Link to={"https://twitter.com/EiceTech24"}>
-                                        <FaSquareXTwitter size={30} className="blueTextGlobalClass" />
-                                    </Link>
+            <div>
+              <Link to={"https://twitter.com/EiceTech24"}>
+                <FaSquareXTwitter size={30} className="blueTextGlobalClass" />
+              </Link>
 
-                                </div>
+            </div>
 
-                                <div>
-                                    <Link to={"https://www.instagram.com/eicetechnology24/?next=%2F"}>
-                                        {/* <FaInstagram size={30} className="blueTextGlobalClass" /> */}
-                                        <FaSquareInstagram size={30} className="blueTextGlobalClass" />
-                                    </Link>
+            <div>
+              <Link to={"https://www.instagram.com/eicetechnology24/?next=%2F"}>
+                {/* <FaInstagram size={30} className="blueTextGlobalClass" /> */}
+                <FaSquareInstagram size={30} className="blueTextGlobalClass" />
+              </Link>
 
-                                </div>
+            </div>
 
-                                <div>
-                                    <Link to={"https://www.facebook.com/Eicetechnology/"}>
-                                        <FaFacebookSquare size={30} className="blueTextGlobalClass" />
-                                    </Link>
+            <div>
+              <Link to={"https://www.facebook.com/Eicetechnology/"}>
+                <FaFacebookSquare size={30} className="blueTextGlobalClass" />
+              </Link>
 
-                                </div>
+            </div>
 
 
 

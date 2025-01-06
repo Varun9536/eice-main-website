@@ -142,7 +142,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <NavLayout />
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
