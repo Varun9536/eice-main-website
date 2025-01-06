@@ -7,19 +7,21 @@
    max-width: 77rem;
     width: 100%;
     margin: 0px auto;
-    padding: 1rem 1rem;
+   
     flex-wrap: wrap;
-    justify-content: center;
+  
     row-gap: 2rem;
-    column-gap: 2rem;
-    justify-content: space-between;
+    column-gap: 7rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+    /* align-items: center; */
    
 }
 
-/* .appConsult
+.appConsult
 {
-    width: 30rem;
-    height: 20rem;
+    width: 35rem;
+    height: 25rem;
     
    
   
@@ -28,12 +30,57 @@
 
 .uiuxConsult
 {
-    width: 30rem;
-    height: 20rem;
+    width: 35rem;
+    height: 25rem;
    
 
     
-} */
+}
+
+@media (max-width : 600px)
+{
+    .appConsult
+{
+    width: 25rem;
+    height: 25rem;
+    
+   
+  
+
+}
+
+.uiuxConsult
+{
+    width: 25rem;
+    height: 25rem;
+   
+
+    
+}
+}
+
+
+@media (max-width : 390px)
+{
+    .appConsult
+{
+    width: 20rem;
+    height: 25rem;
+    
+   
+  
+
+}
+
+.uiuxConsult
+{
+    width: 20rem;
+    height: 25rem;
+   
+
+    
+}
+}
 
 .text
 {

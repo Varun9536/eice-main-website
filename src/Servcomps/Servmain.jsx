@@ -33,7 +33,7 @@ import { TbLetterA, TbLetterI } from "react-icons/tb";
 import consultancy from "../assets/Compressed/consultancy.jpg";
 import uiuxdesign from "../assets/Compressed/uiuxdesign.jpg";
 import { Link } from "react-router-dom";
-import { border, borderRadius, height, positions, width } from "@mui/system";
+import { border, borderRadius, height, margin, positions, width } from "@mui/system";
 function Servmain() {
   const location = useLocation();
 
@@ -44,10 +44,11 @@ function Servmain() {
     backgroundPosition: 'center',
 
 
-    width: "35rem",
-    height: "25rem",
+    // width: "35rem",
+    // height: "25rem",
     position: "relative",
-   
+    margin : "0px auto"
+
 
   };
   const uiuxStyle = {
@@ -55,10 +56,12 @@ function Servmain() {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
 
-    width: "35rem",
-    height: "25rem",
+    // width: "35rem",
+    // height: "25rem",
     position: "relative",
-   
+
+    margin : "0px auto"
+
 
 
   };
@@ -347,7 +350,7 @@ function Servmain() {
       <div className="pt-8 pb-8">
         <div>
           <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
-          Consultancy Service
+            Consultancy Service
           </h1>
         </div>
       </div>
@@ -420,59 +423,67 @@ function Servmain() {
         </Link> */}
 
       <div className={`${styles.cosultingContainer}`}>
+        <Link  to="/Services-Techconsultancy">
+          <div style={appStyle} className={`${styles.appConsult}`}>
 
-        <div style={appStyle} className={`${styles.appConsult}`}>
 
-          <div className={`${styles.text}`}>
-            <div className="">
-              <FaPeopleArrows
-                size={50}
-                className="text-white lg:hidden pr-2 "
-              />
-              <FaPeopleArrows
-                size={60}
-                className="text-white hidden lg:block pr-2"
-              />
-              <div>
-                <h1 className="py-2 text-3xl fontweight_1">App Consulting</h1>
-                <p className="text-wrap  text-base font-medium lg:text-lg">
-                  EICE provides expert guidance on app strategy, development,
-                  and optimization. Our consultants help you make informed
-                  decisions about technology stack, user experience, and
-                  market positioning to ensure your app's success.
-                </p>
-              </div>
-            </div>
-          </div>
 
-        </div>
-
-        <div style={uiuxStyle} className={`${styles.uiuxConsult}`}>
-
-          <div className={`${styles.text}`}>
-
-            <div className="h-3/4"></div>
-            <div className="">
-              <FaPencilRuler size={50} className="text-white lg:hidden pr-2 " />
-              <FaPencilRuler
-                size={60}
-                className="text-white hidden lg:block pr-2"
-              />
-              <div>
-                <h1 className="py-2 text-3xl fontweight_1">UI/UX Consulting</h1>
-                <p className="text-wrap  text-base font-medium lg:text-lg">
-                  EICE offers specialized UI/UX consulting services to enhance
-                  your digital products. Our experts provide insights on user
-                  interface design and user experience. We help you create
-                  ensure your product stands out in the market and delivers
-                  exceptional user satisfaction.
-                </p>
+            <div className={`${styles.text}`}>
+              <div className="">
+                <FaPeopleArrows
+                  size={50}
+                  className="text-white lg:hidden pr-2 "
+                />
+                <FaPeopleArrows
+                  size={60}
+                  className="text-white hidden lg:block pr-2"
+                />
+                <div>
+                  <h1 className="py-2 text-3xl fontweight_1">App Consulting</h1>
+                  <p className="text-wrap  text-base font-medium lg:text-lg">
+                    EICE provides expert guidance on app strategy, development,
+                    and optimization. Our consultants help you make informed
+                    decisions about technology stack, user experience, and
+                    market positioning to ensure your app's success.
+                  </p>
+                </div>
               </div>
             </div>
 
           </div>
+        </Link>
 
-        </div>
+        <Link  to="/Services-Uiuxconsulting">
+          <div style={uiuxStyle} className={`${styles.uiuxConsult}`}>
+
+            <div className={`${styles.text}`}>
+
+              <div className="h-3/4"></div>
+              <div className="">
+                <FaPencilRuler size={50} className="text-white lg:hidden pr-2 " />
+                <FaPencilRuler
+                  size={60}
+                  className="text-white hidden lg:block pr-2"
+                />
+                <div>
+                  <h1 className="py-2 text-3xl fontweight_1">UI/UX Consulting</h1>
+                  <p className="text-wrap  text-base font-medium lg:text-lg">
+                    EICE offers specialized UI/UX consulting services to enhance
+                    your digital products. Our experts provide insights on user
+                    interface design and user experience. We help you create
+                    ensure your product stands out in the market and delivers
+                    exceptional user satisfaction.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </Link>
+
+
+
 
       </div>
       {/* </div> */}
