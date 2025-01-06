@@ -33,7 +33,7 @@ import { TbLetterA, TbLetterI } from "react-icons/tb";
 import consultancy from "../assets/Compressed/consultancy.jpg";
 import uiuxdesign from "../assets/Compressed/uiuxdesign.jpg";
 import { Link } from "react-router-dom";
-import { height, positions, width } from "@mui/system";
+import { border, borderRadius, height, positions, width } from "@mui/system";
 function Servmain() {
   const location = useLocation();
 
@@ -46,7 +46,8 @@ function Servmain() {
 
     width: "35rem",
     height: "25rem",
-    position: "relative"
+    position: "relative",
+   
 
   };
   const uiuxStyle = {
@@ -56,7 +57,8 @@ function Servmain() {
 
     width: "35rem",
     height: "25rem",
-    position: "relative"
+    position: "relative",
+   
 
 
   };
@@ -266,7 +268,7 @@ function Servmain() {
       </div>
 
       <div className="bg-zinc-50" id="appDevelopment">
-        <div className="py-12 relative font-manrope mx-auto px-1 sm:max-w-7xl w-screen">
+        <div className="py-8 relative font-manrope mx-auto px-1 sm:max-w-7xl w-screen">
           <div>
             <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
               App Development Services
@@ -342,10 +344,10 @@ function Servmain() {
           </div>
         </div>
       </div>
-      <div className="pt-12 pb-8">
+      <div className="pt-8 pb-8">
         <div>
           <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
-            {/* Consultancy Services */}
+          Consultancy Service
           </h1>
         </div>
       </div>
