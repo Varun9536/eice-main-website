@@ -13,7 +13,7 @@ function Copyright()
                 </div>
             </div> */}
           
-              <div   style={{textAlign : "center" , color : "white"}} >Copyright ©&nbsp; EICE Technologies 2024. All Rights Reserved.</div>
+              <div    style={{textAlign : "center" , color : "white", fontSize : "14px"}} >Copyright ©&nbsp; EICE Technologies 2024. All Rights Reserved.</div>
               {/* <p>Copyright ©&nbsp; Technologies 2023. All Rights Reserved.</p> */}
         </div>
     )
