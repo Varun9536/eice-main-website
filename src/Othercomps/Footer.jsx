@@ -45,29 +45,29 @@ function Footer() {
   };
 
   return (
-    <div className="mt-12" style={{background : "rgb(1 , 32 , 96)" , }}>
- <footer  className=" text-manrope  py-8 px-2 lg:max-w-7xl w-screen mx-auto font-manrope">
-      <div className=" mx-auto flex flex-row flex-wrap gap-8 w-full">
-        {/* Company Info */}
-        <div className="px-3 col-span-1 md:col-span-2 lg:col-span-1">
-          <Link to="/" className="inline-block mb-4">
-            <img style={{filter: "brightness(0) invert(1)"}} src={logo} alt="EICE Logo" className="h-12 w-auto" />
-          </Link>
-          <p style={{color :"white"}} className="   fontsize_3      pb-6">
-            EICE Technology is an outstanding software development company with
-            deep domain knowledge, well-designed processes, and technical
-            expertise. We have a highly skilled team of software engineers with
-            expertise in advanced technologies such as GIS, IoT, Blockchain,
-            Cloud, Data Analytics, DevOps and Generative Artificial
-            Intelligence. Our mission is to develop innovative and scalable
-            digital products and services that drive business transformation and
-            differentiate our company from the competition. Our expertise lies
-            in Financial Services and Enterprise Services. Our headquarters are
-            in Houston, Texas, and we have offices in Noida, India, and Delhi,
-            India.
-          </p>
-          <div className="flex space-x-4">
-            {/*             
+    <div className="mt-24" style={{ background: "rgb(1 , 32 , 96)", }}>
+      <footer className=" text-manrope  py-8 px-2 lg:max-w-7xl w-screen mx-auto font-manrope">
+        <div className=" mx-auto flex flex-row flex-wrap gap-8 w-full">
+          {/* Company Info */}
+          <div className="px-3 col-span-1 md:col-span-2 lg:col-span-1">
+            <Link to="/" className="inline-block mb-4">
+              <img style={{ filter: "brightness(0) invert(1)" }} src={logo} alt="EICE Logo" className="h-12 w-auto" />
+            </Link>
+            <p style={{ color: "white" , fontSize : "15px" }} className= "pb-6">
+              EICE Technology is an outstanding software development company with
+              deep domain knowledge, well-designed processes, and technical
+              expertise. We have a highly skilled team of software engineers with
+              expertise in advanced technologies such as GIS, IoT, Blockchain,
+              Cloud, Data Analytics, DevOps and Generative Artificial
+              Intelligence. Our mission is to develop innovative and scalable
+              digital products and services that drive business transformation and
+              differentiate our company from the competition. Our expertise lies
+              in Financial Services and Enterprise Services. Our headquarters are
+              in Houston, Texas, and we have offices in Noida, India, and Delhi,
+              India.
+            </p>
+            <div className="flex space-x-4">
+              {/*             
             <Link
               to={"https://twitter.com/EiceTech24"}
               target="_blank"
@@ -119,45 +119,45 @@ function Footer() {
             </Link> */}
 
 
-            <div>
-              <Link to={"https://www.linkedin.com/company/eice-technology/posts/?feedView=all&viewAsMember=true"}>
-                <FaLinkedin size={30} className="blueTextGlobalClass" />
-              </Link>
+              <div>
+                <Link to={"https://www.linkedin.com/company/eice-technology/posts/?feedView=all&viewAsMember=true"}>
+                  <FaLinkedin size={30} className="blueTextGlobalClass" />
+                </Link>
+
+              </div>
+
+              <div>
+                <Link to={"https://twitter.com/EiceTech24"}>
+                  <FaSquareXTwitter size={30} className="blueTextGlobalClass" />
+                </Link>
+
+              </div>
+
+              <div>
+                <Link to={"https://www.instagram.com/eicetechnology24/?next=%2F"}>
+                  {/* <FaInstagram size={30} className="blueTextGlobalClass" /> */}
+                  <FaSquareInstagram size={30} className="blueTextGlobalClass" />
+                </Link>
+
+              </div>
+
+              <div>
+                <Link to={"https://www.facebook.com/Eicetechnology/"}>
+                  <FaFacebookSquare size={30} className="blueTextGlobalClass" />
+                </Link>
+
+              </div>
+
+
+
 
             </div>
-
-            <div>
-              <Link to={"https://twitter.com/EiceTech24"}>
-                <FaSquareXTwitter size={30} className="blueTextGlobalClass" />
-              </Link>
-
-            </div>
-
-            <div>
-              <Link to={"https://www.instagram.com/eicetechnology24/?next=%2F"}>
-                {/* <FaInstagram size={30} className="blueTextGlobalClass" /> */}
-                <FaSquareInstagram size={30} className="blueTextGlobalClass" />
-              </Link>
-
-            </div>
-
-            <div>
-              <Link to={"https://www.facebook.com/Eicetechnology/"}>
-                <FaFacebookSquare size={30} className="blueTextGlobalClass" />
-              </Link>
-
-            </div>
-
-
-
-
           </div>
-        </div>
 
-        {/* Company Links */}
+          {/* Company Links */}
 
-        {/* Services Links */}
-        {/* <div className="">
+          {/* Services Links */}
+          {/* <div className="">
       <h3 className="  mb-4">Services</h3>
       <div className="space-y-2 space-x-2 items-center justify-center text-center flex flex-wrap  text-sm">
         <a href="/application-services" className="hover:underline">Application Services</a>
@@ -166,121 +166,121 @@ function Footer() {
       </div>
     </div> */}
 
-        <div style={{color :"white"}} className="flex flex-col text-start">
-          <h1 style={{fontWeight : "600"}} className="px-3 py-2 fontsize_4 ">
-            Services and Technologies
-          </h1>
-          <div className=" fontsize_3 flex flex-row flex-wrap">
+          <div style={{ color: "white" }} className="flex flex-col text-start">
+            <h1 style={{ fontWeight: "600" }} className="px-3 py-2 fontsize_4 ">
+              Services and Technologies
+            </h1>
+            <div className=" fontsize_3 flex flex-row flex-wrap">
 
 
-            <Link style={{color :"white"}}
-              to="/Services-Digitaltransformation"
-              className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              Digital Transformation
-            </Link>
-            <Link style={{color :"white"}}
-              to="/Services-Aiml"
-              className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              AI/ML
-            </Link>
-            <Link style={{color :"white"}}
-              to="/Services-Blockchain"
-              className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              Blockchain
-            </Link>
-            <Link style={{color :"white"}}
-              to="/Services-Iot"
-              className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              IOT
-            </Link>
-            <Link style={{color :"white"}}
-              to="/Services-Uiuxconsulting"
-              className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              UI/UX Consulting
-            </Link>
-            <Link style={{color :"white"}}
-              to="/Services-Android"
-              className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              Desktop and Mobile App Development
-            </Link>
-            <Link style={{color :"white"}}
-              to="/Services-Webdevelopment"
-              className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              Web Development
-            </Link>
-            <Link style={{color :"white"}}
-              to="/Services-Devops"
-              className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              DevOps
-            </Link>
-            <Link style={{color :"white"}}
-              to="/Services-Cloud"
-              className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              Cloud Services
-            </Link>
-            <Link style={{color :"white"}}
-              to="/Services-Softwaretesting"
-              className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              Software Testing
-            </Link>
-            <Link style={{color :"white"}}
-              target="_blank"
-              to="https://rise.eicetechnology.com/"
-              className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              Eice Rise Hospitality
-            </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/Services-Digitaltransformation"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                Digital Transformation
+              </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/Services-Aiml"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                AI/ML
+              </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/Services-Blockchain"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                Blockchain
+              </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/Services-Iot"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                IOT
+              </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/Services-Uiuxconsulting"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                UI/UX Consulting
+              </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/Services-Android"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                Desktop and Mobile App Development
+              </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/Services-Webdevelopment"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                Web Development
+              </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/Services-Devops"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                DevOps
+              </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/Services-Cloud"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                Cloud Services
+              </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/Services-Softwaretesting"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                Software Testing
+              </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                target="_blank"
+                to="https://rise.eicetechnology.com/"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                Eice Rise Hospitality
+              </Link>
+            </div>
           </div>
-        </div>
 
-        <div className="flex flex-col text-start">
-          <h1 style={{color :"white" , fontWeight : "600"}} className="px-3 py-2 fontsize_4  ">Company</h1>
-          <div className="flex flex-row flex-wrap">
-            <Link style={{color :"white"}}
-              to="/About"
-              className=" text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              About Us
-            </Link>
+          <div className="flex flex-col text-start">
+            <h1 style={{ color: "white", fontWeight: "600" }} className="px-3 py-2 fontsize_4  ">Company</h1>
+            <div className="flex flex-row flex-wrap">
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/About"
+                className=" text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                About Us
+              </Link>
 
-            <Link style={{color :"white"}}
-              to="/OurTeam"
-              className=" text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              Our Team
-            </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/OurTeam"
+                className=" text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                Our Team
+              </Link>
 
 
-            <Link style={{color :"white"}}
-              to="/Resources"
-              className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              Resources
-            </Link>
-            <Link style={{color :"white"}}
-              to="/Contact"
-              className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              Contact Us
-            </Link>
-            <Link  style={{color :"white"}}
-              to="/Industries"
-              className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
-            >
-              Industries
-            </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/Resources"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                Resources
+              </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/Contact"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                Contact Us
+              </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                to="/Industries"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                Industries
+              </Link>
 
-            {/* <Link
+              {/* <Link
               to="/POS"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
@@ -288,11 +288,11 @@ function Footer() {
             </Link> */}
 
 
+            </div>
           </div>
-        </div>
 
-        {/* Newsletter Subscription */}
-        {/* <div>
+          {/* Newsletter Subscription */}
+          {/* <div>
       <h3 className="  mb-4">Subscribe to our Newsletter</h3>
       <div className="flex flex-col gap-4">
       <input 
@@ -311,10 +311,10 @@ function Footer() {
         </button>
       </div>
     </div> */}
-      </div>
-    </footer>
+        </div>
+      </footer>
     </div>
-   
+
   );
 }
 
