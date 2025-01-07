@@ -167,7 +167,7 @@ function Footer() {
     </div> */}
 
         <div style={{color :"white"}} className="flex flex-col text-start">
-          <h1 className="px-3 py-2 fontsize_4 ">
+          <h1 style={{fontWeight : "600"}} className="px-3 py-2 fontsize_4 ">
             Services and Technologies
           </h1>
           <div className=" fontsize_3 flex flex-row flex-wrap">
@@ -244,7 +244,7 @@ function Footer() {
         </div>
 
         <div className="flex flex-col text-start">
-          <h1 style={{color :"white"}} className="px-3 py-2 fontsize_4  ">Company</h1>
+          <h1 style={{color :"white" , fontWeight : "600"}} className="px-3 py-2 fontsize_4  ">Company</h1>
           <div className="flex flex-row flex-wrap">
             <Link style={{color :"white"}}
               to="/About"
