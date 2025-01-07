@@ -45,14 +45,15 @@ function Footer() {
   };
 
   return (
-    <footer className="bg-white text-manrope  py-8 px-2 lg:max-w-7xl w-screen mx-auto font-manrope">
+    <div style={{background : "rgb(30 58 138 / 0.9)"}}>
+ <footer  className=" text-manrope  py-8 px-2 lg:max-w-7xl w-screen mx-auto font-manrope">
       <div className=" mx-auto flex flex-row flex-wrap gap-8 w-full">
         {/* Company Info */}
         <div className="px-3 col-span-1 md:col-span-2 lg:col-span-1">
           <Link to="/" className="inline-block mb-4">
             <img src={logo} alt="EICE Logo" className="h-12 w-auto" />
           </Link>
-          <p className=" fontweight_1  fontsize_3 text-blackk/60     pb-6">
+          <p style={{color :"white"}} className=" fontweight_1  fontsize_3      pb-6">
             EICE Technology is an outstanding software development company with
             deep domain knowledge, well-designed processes, and technical
             expertise. We have a highly skilled team of software engineers with
@@ -165,74 +166,74 @@ function Footer() {
       </div>
     </div> */}
 
-        <div className="flex flex-col text-start">
+        <div style={{color :"white"}} className="flex flex-col text-start">
           <h1 className="px-3 py-2 fontsize_4 ">
             Services and Technologies
           </h1>
           <div className=" fontsize_3 flex flex-row flex-wrap">
 
 
-            <Link
+            <Link style={{color :"white"}}
               to="/Services-Digitaltransformation"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
               Digital Transformation
             </Link>
-            <Link
+            <Link style={{color :"white"}}
               to="/Services-Aiml"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
               AI/ML
             </Link>
-            <Link
+            <Link style={{color :"white"}}
               to="/Services-Blockchain"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
               Blockchain
             </Link>
-            <Link
+            <Link style={{color :"white"}}
               to="/Services-Iot"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
               IOT
             </Link>
-            <Link
+            <Link style={{color :"white"}}
               to="/Services-Uiuxconsulting"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
               UI/UX Consulting
             </Link>
-            <Link
+            <Link style={{color :"white"}}
               to="/Services-Android"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
               Desktop and Mobile App Development
             </Link>
-            <Link
+            <Link style={{color :"white"}}
               to="/Services-Webdevelopment"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
               Web Development
             </Link>
-            <Link
+            <Link style={{color :"white"}}
               to="/Services-Devops"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
               DevOps
             </Link>
-            <Link
+            <Link style={{color :"white"}}
               to="/Services-Cloud"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
               Cloud Services
             </Link>
-            <Link
+            <Link style={{color :"white"}}
               to="/Services-Softwaretesting"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
               Software Testing
             </Link>
-            <Link
+            <Link style={{color :"white"}}
               target="_blank"
               to="https://rise.eicetechnology.com/"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
@@ -243,16 +244,16 @@ function Footer() {
         </div>
 
         <div className="flex flex-col text-start">
-          <h1 className="px-3 py-2 fontsize_4  ">Company</h1>
+          <h1 style={{color :"white"}} className="px-3 py-2 fontsize_4  ">Company</h1>
           <div className="flex flex-row flex-wrap">
-            <Link
+            <Link style={{color :"white"}}
               to="/About"
               className=" text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
               About Us
             </Link>
 
-            <Link
+            <Link style={{color :"white"}}
               to="/OurTeam"
               className=" text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
@@ -260,19 +261,19 @@ function Footer() {
             </Link>
 
 
-            <Link
+            <Link style={{color :"white"}}
               to="/Resources"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
               Resources
             </Link>
-            <Link
+            <Link style={{color :"white"}}
               to="/Contact"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
               Contact Us
             </Link>
-            <Link
+            <Link  style={{color :"white"}}
               to="/Industries"
               className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
             >
@@ -312,6 +313,8 @@ function Footer() {
     </div> */}
       </div>
     </footer>
+    </div>
+   
   );
 }
 
