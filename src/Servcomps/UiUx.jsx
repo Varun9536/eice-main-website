@@ -181,7 +181,7 @@ function Uiux() {
           <div className="absolute -z-20 inset-0 right-[75%]">
             <img src={servicebannerpattern} alt="" />
           </div>
-          <div className="flex lg:flex-row flex-col px-4 py-20 items-center">
+          <div className="flex lg:flex-row flex-col px-4 pt-20 pb-8 items-center">
             <div className="w-full">
               <h1 className="text-blackk  fontweight_1 fontsize_6 ">
                 UI/UX Services
@@ -201,7 +201,7 @@ function Uiux() {
         </div>
       </div>
 
-      <div className="py-16 md:py-20 lg:py-16 ">
+      <div className="py-16 md:py-4 lg:py-4 ">
         <div className="relative font-manrope mx-auto px-4 lg:px-4 max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
             <div>
@@ -227,11 +227,11 @@ function Uiux() {
           </div>
         </div>
       </div>
-      <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen py-4 lg:pt-24 pt-12 pb-20  ">
+      <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen py-4 lg:pt-12 pt-12 pb-12  ">
         <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
           Our UI/UX Services
         </h1>
-        <div className="grid px-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 pt-8">
+        <div className="grid px-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 pt-4">
           <div className="group  p-8 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-white border-transparent hover:border-gray-200 ">
             <div className="rounded-full flex items-start w-full">
               <FaPeopleArrows size={48} className="text-bloo" />
