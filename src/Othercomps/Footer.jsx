@@ -46,12 +46,12 @@ function Footer() {
 
   return (
     <div className="mt-24" style={{ background: "rgb(1 , 32 , 96)", }}>
-      <footer className=" text-manrope  py-8 px-2 lg:max-w-7xl w-screen mx-auto font-manrope">
-        <div className=" mx-auto flex flex-row flex-wrap gap-8 w-full">
+      <footer className=" text-manrope  py-4 px-2 lg:max-w-7xl w-screen mx-auto font-manrope">
+        <div className=" mx-auto flex flex-row flex-wrap gap-1 w-full">
           {/* Company Info */}
           <div className="px-3 col-span-1 md:col-span-2 lg:col-span-1">
             <Link to="/" className="inline-block mb-4">
-              <img style={{ filter: "brightness(0) invert(1)" }} src={logo} alt="EICE Logo" className="h-12 w-auto" />
+              <img style={{ filter: "brightness(0) invert(1)" }} src={logo} alt="EICE Logo" className="h-10 w-auto" />
             </Link>
             <p style={{ color: "white" , fontSize : "15px" }} className= "pb-6">
               EICE Technology is an outstanding software development company with
@@ -167,7 +167,7 @@ function Footer() {
     </div> */}
 
           <div style={{ color: "white" }} className="flex flex-col text-start">
-            <h1 style={{ fontWeight: "600" }} className="px-3 py-2 fontsize_4 ">
+            <h1 style={{ fontWeight: "600" }} className="px-3 py-1 fontsize_4 ">
               Services and Technologies
             </h1>
             <div className=" fontsize_3 flex flex-row flex-wrap">
@@ -244,7 +244,7 @@ function Footer() {
           </div>
 
           <div className="flex flex-col text-start">
-            <h1 style={{ color: "white", fontWeight: "600" }} className="px-3 py-2 fontsize_4  ">Company</h1>
+            <h1 style={{ color: "white", fontWeight: "600" }} className="px-3 py-1 fontsize_4  ">Company</h1>
             <div className="flex flex-row flex-wrap">
               <Link style={{ color: "white" , fontSize : "15px" }}
                 to="/About"
