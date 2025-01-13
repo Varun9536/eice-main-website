@@ -45,12 +45,12 @@ function Footer() {
   };
 
   return (
-    <div className="mt-24" style={{ background: "rgb(1 , 32 , 96)", }}>
+    <div className="mt-12" style={{ background: "rgb(1 , 32 , 96)", }}>
       <footer className=" text-manrope  py-4 px-2 lg:max-w-7xl w-screen mx-auto font-manrope">
         <div className=" mx-auto flex flex-row flex-wrap gap-1 w-full">
           {/* Company Info */}
-          <div className="px-3 col-span-1 md:col-span-2 lg:col-span-1">
-            <Link to="/" className="inline-block mb-4">
+          <div className="px-3 mt-2 col-span-1 md:col-span-2 lg:col-span-1">
+            <Link to="/" className="inline-block mb-2">
               <img style={{ filter: "brightness(0) invert(1)" }} src={logo} alt="EICE Logo" className="h-10 w-auto" />
             </Link>
             <p style={{ color: "white" , fontSize : "15px" }} className= "pb-6">
