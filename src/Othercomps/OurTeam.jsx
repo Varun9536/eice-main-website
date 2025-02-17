@@ -75,6 +75,17 @@ function OurTeam() {
       certifications: "Cloud Solutions Architect",
 
     },
+
+    {
+      name: "Ashish Mahajan",
+      education: "M.Tech (KU - Kurukeshtra)",
+      experience: "22+Years",
+      skillSet: "Digital Transformation , Oil and Gas" ,
+      certifications: "PMP, PSM, Design Thinking"
+    },
+
+    
+   
     {
       name: "Mridula Mittal",
       education: "Master of Computer Applications (MCA)",
@@ -87,12 +98,7 @@ function OurTeam() {
       experience: "12+ Years",
       skillSet: "DevOps Engineer, Cloud (AWS & Azure), .Net Technologies, NOP E-Commerce"
     },
-    {
-      name: "Shilpy Pandey",
-      education: "Master of Computer Applications (MCA)",
-      experience: "10+ Years",
-      skillSet: "DevOps Engineer, .Net technologies, Highcharts, Test Complete Automation tool"
-    },
+    
     {
       name: "Kunal Sagar",
       education: "MCA, MBA (IT & Marketing)",

@@ -46,7 +46,7 @@ function Footer() {
 
   return (
     <div className="mt-12" style={{ background: "rgb(1 , 32 , 96)", }}>
-      <footer className=" text-manrope  py-4 px-2 lg:max-w-7xl w-screen mx-auto font-manrope">
+      <footer className=" text-manrope  py-12 px-2 lg:max-w-7xl w-screen mx-auto font-manrope">
         <div className=" mx-auto flex flex-row flex-wrap gap-1 w-full">
           {/* Company Info */}
           <div className="px-3 mt-2 col-span-1 md:col-span-2 lg:col-span-1">
