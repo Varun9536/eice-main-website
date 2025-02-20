@@ -238,7 +238,14 @@ function Footer() {
                 to="https://rise.eicetechnology.com/"
                 className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
               >
-                Eice Rise Hospitality
+                Eice Rise
+              </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                target="_blank"
+                to="https://isyncdrive.eicetechnology.com/"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                iSync Drive
               </Link>
             </div>
           </div>
