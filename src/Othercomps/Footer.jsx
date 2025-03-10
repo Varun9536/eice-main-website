@@ -247,6 +247,13 @@ function Footer() {
               >
                 iSync Drive
               </Link>
+              <Link style={{ color: "white" , fontSize : "15px" }}
+                target="_blank"
+                to="https://easylogy.eicetechnology.com/"
+                className="text-blackk/60     hover:text-blackk  hover:underline py-1 px-3"
+              >
+                WTMS
+              </Link>
             </div>
           </div>
 
