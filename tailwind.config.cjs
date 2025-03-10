@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        manrope:['poppins', 'serif'],
+        // manrope:['poppins', 'serif'],
         valera:['Valera Round Regular', 'serif'],
       },
       backgroundImage: {
